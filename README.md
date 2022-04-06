@@ -1,23 +1,24 @@
 # TÍTULO DO PROJETO
 
-`CURSO`
+`CURSO` Análise e Desenvolvimento de Sistemas
 
-`DISCIPLINA`
+`DISCIPLINA` Desenvolvimento de Aplicação Web Front-End
 
-`SEMESTRE`
+`SEMESTRE` 1º Semestre (2022.1)
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Victor Marcos Olivera Vieira
+* Anderson Do Carmo Ramos
+* Jedson Fernandes De Amorim
+* Leandro Furtado De Souza
+* Vinicius Ottoni Guimarães Soares
 
 ## Orientador
 
-* Nome completo do professor 1
+* Joyce Christina De Paiva Carvalho
 
 ## Instruções de utilização
 
