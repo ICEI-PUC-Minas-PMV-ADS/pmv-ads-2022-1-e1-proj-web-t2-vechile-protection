@@ -6,84 +6,76 @@ As partes mais importantes para a solução do problema foi produzida como uma m
 
 As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem.
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+Lucas Pereira tem 25 anos, é estudante de TI na UFRN. Gosta muito de pedir comida por aplicativo e usa bastante UBER como meio de transporte, prefere o turno da noite e gosta de festas. Na horas livres gosta de ler sobre mecânica e acompanha as notícias da revista Quatro Rodas. Utiliza muitos aplicativos, alguns deles são: Instagram, Twitter, Facebook, Whatsapp, Telegram, Nubank, Youtube, Uber, iFood.
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
+Iury Rodrigues
 
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
+Osvaldo Antunes
+
+Lucas Guilherme
+
+José Antônio Pereira da Silva
 
 ## Histórias de Usuários
 
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
+A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários.
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Osvaldo Antunes | Ter acesso as regras de utilização, meus direitos e deveres como um associado da proteção veicular de forma mais prática como por exemplo, um PDF online | Assim eu posso consultar qualquer tipo de dúvida de forma rápida e até mesmo pelo meu aparelho celular e em caso de perca do manual eu o tenho sempre a minha disposição de forma digital |
+|Iury Rodrigues| Entrar em contato via e-mail ou WhatsApp com a proteção veicular | É mais prático e não preciso ficar no telefone à espera de um atendente, tenho a resposta assim que possível|
+|Lucas Pereira | Aprender mais sobre direção defensiva e sobre automóveis | Apesar de ter uma proteção, é bom evitar acidentes tanto com carro quanto com pessoas|
+|Iury Rodrigues | Queria ver todas opções de seguro antes de contratar, já com alguns preços | Não preciso ficar pedindo à algum atendente quando quiser mudar alguma opção, eu simulo do meu jeito o mais rápido possível |
+| Lucas Guilherme | Queria saber todos opcionais de proteção que a empresa fornece | Gosto de modificar meu carro e ter todas as minhas modificações asseguradas e talvez até os itens internos do meu carro, isso seria muito bom. Se terei um carro reserva caso meu carro seja roubado |
+| Lucas Guilherme | Gostaria de saber as empresas terceirizadas que fornecem serviços junto com a proteção automotiva que eu contratei | Mesmo que a empresa tenha bons índices no mercado e excelentes funcionalidades, as vezes a empresa de guincho, ou de aluguel de carros não é tão boa e seria interessante saber quem são os parceiros para que eu saiba se eles também prestam bom serviço quando eu precisar |
+| Iury Rodrigues | Acessar os boletos online e pagar pelo aplicativo do banco | Não preciso esperar que chegue o boleto pelos correios |
+| José Antônio Pereira da Silva | Gostaria de saber como funciona a proteção automotiva, como contratar e entrar em contato | Não queria entrar em contato já de imediato com a empresa e nem simular antes de saber como funciona |
+| José Antônio Pereira da Silva | Desejo verificar possíveis vagas de trabalho na empresa de proteção automotiva | Estou atualmente desempregado e trabalho como motorista de aplicativo |
+| Lucas Pereira | Ter acesso ao site da proteção que seja de qualidade e otimizado | Muitas vezes acessarei pelo navegador do meu aparelho celular e já percebi que muitos sites as vezes acontecem alguns bugs |
+| Iury Rodrigues | Gostaria de poder acessar o site tanto no computador quanto no meu celular | Trabalho no notebook, mas os aplicativos de banco em geral são nos celulares e seria mais prático acessar pelo celular do que baixar no computador |
+| Iury Rodrigues | Queria saber o que outras pessoas acham da proteção veicular dessa empresa | Se as pessoas estão avaliando bem então, a possibilidade de contratar os serviços da empresa é maior e se for ruim eu nem faço pré cotação e nem entro em contato |
 
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Requisitos
 
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
+O escopo funcional do projeto é definido por meio dos requisitos funcionais que descrevem as possibilidades interação dos usuários, bem como os requisitos não funcionais que descrevem os aspectos que o sistema deverá apresentar de maneira geral. Estes requisitos são apresentados a seguir.
 
 ### Requisitos Funcionais
 
+A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues.
+
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Formulário para preenchimento de dados sobre o carro e o cliente para cálculo e contratação da proteção automotiva | ALTA | 
+|RF-002| Uma forma do cliente contatar a empresa   | ALTA |
+|RF-003| Notícias sobre automóveis e direção defensiva   | BAIXA |
+|RF-004| Opção de manual do associado, onde informa para o cliente todos os seus direitos, deveres e regras de utilização   | MÉDIA |
+|RF-005| Uma forma de divulgar vagas da própria empresa de proteção veicular que visa contratação de colaboradores   | BAIXA |
+|RF-006| O site deve informar em algum local as empresas parceiras, como rastreamento, carros alugados e afins...   | BAIXA |
+|RF-007| Opção para requisitar impressão do boleto   | MÉDIA |
+|RF-008| Informação de serviços prestados disponíveis   | MÉDIA |
+|RF-009| Perguntas frequentes   | BAIXA |
+|RF-010| Melhores comentários e avaliações da empresa feito por alguns usuários   | BAIXA |
 
 
 ### Requisitos não Funcionais
 
+A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender.
+
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| O site deve mudar seus elementos de acordo com a plataforma: celular, tablet ou computador | MÉDIA | 
+|RNF-002| O site deve ser funcional em diversos navegadores que tem HTML5 |  MÉDIA | 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir.
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|01| As linguagens serão limitadas à HTML, Javascript, CSS e C# |
+|02| A aplicação web não terá banco de dados        |
+|03| O projeto deve ser entregue até 14/07/2022 de acordo com o cronograma adotado pela PUC |
 
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
