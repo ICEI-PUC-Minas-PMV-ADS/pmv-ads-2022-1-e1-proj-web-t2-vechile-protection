@@ -1,46 +1,31 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+Vivemos em país que a comercialização de veículos só cresce, com um crescimento de 3% para carros novos e 11,5% para carros usados apenas em Minas Gerais. A busca por um veículo automotor tornou-se um dos principais motivos para ampliação de vias e até mesmo a criação de novas rodovias.
+
+Em contrapartida, os acidentes estão cada vez mais presentes no dia a dia das pessoas, o que provoca gastos indesejados para uma população que vive em um país emergente. Visando ter um menor gasto, os donos de veículos motorizados optam por fazer seguros, que muitas das vezes não atendem de forma adequada ou tem um preço muito elevado.
+
+Segundo dados do Registro Nacional de Acidentes e Estatística de Trânsito (RENAEST), no ano de 2021 em todo o Brasil, contabilizou-se uma frota ativa de aproximadamente 70 milhões de carros e nesse ano, registrou-se 796.625 acidentes dos quais envolveram-se 919 mil veículos. Apesar de uma redução no número de acidentes com relação ao ano de 2020, há ainda um número muito elevado de acidentes que ocorrem todos os anos e embora a saúde dos condutores seja de extrema importância, existe também os danos simples causados aos veículos e no pior dos casos há a perda total do veículo, que é quando o conserto sairia mais caro que comprar o veículo novamente.
+
+Além disso, temos furtos e roubos de veículos, grandes fontes já mostram o aumento nos roubos de veículos em geral, sejam eles caminhões, motocicletas ou carros. Somente Guarulhos (SP), registrou 1.096 roubos e furtos de veículos de passeio e utilitários nos quatro primeiros meses de 2021. Outro dado que chama a atenção é o crescimento expressivo de furtos, que passaram de 67,9% em 2020, para 76,6% do total das ocorrências entre janeiro e abril do ano passado (2021) e pela tendência do momento, a situação pode até mesmo piorar no ano de 2022.
+
+Um outro aspecto relevante para implementação de serviços digitais é a adesão das pessoas à esse tipo de serviço. De acordo com uma pesquisa de interesse da Agência Brasil, de 2000 entrevistados até 50% das pessoas que frequentavam locais físicos para fazer compras não fariam mais questão de se deslocar e comprariam de forma online. Uma outra pesquisa de interesse da revista Exame fala que no caso de serviços públicos, 6 em cada 10 brasileiros preferem acesso à serviços de maneira digital e antes da pandemia o número era muito menor, 1 em cada 20 brasileiros e uma das razões é que quase 50% economizam tempo fazendo o mesmo procedimento de forma online.
+
+Olhando por todo esse espectro social, é extremamente importante e útil a construção de uma aplicação web que forneça as pessoas um serviço de cotação rápida de proteção veicular, com parcelas menores já que o foco está no serviço online e não em agências físicas, o cliente terá a praticidade de fazer a contratação e pagamento de boletos no horário do dia que lhe for conveniente. Tudo de uma maneira rápida.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Dificuldade em emitir boletos, em contratar os planos, em entrar em contato devido aos horários que é comercial. O atendimento é em geral sempre presencial, falta de transparência nos planos contratados.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
-
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+Será desenvolvido um site para a contratação e uso do serviço de proteção veicular.
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A proposta do site se aplica para o usuário que irá contratar o serviço fornecendo agilidade, facilidade para cotar e contratar de qualquer lugar, sem a necessidade de ser feito em algum horário especifico. Além disso, as informações necessárias para proteção veicular podem ser obtidas de imediato sem a necessidade de resposta de algum funcionário.
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Para a seguradora, haverá a redução no número de funcionários que fariam a cotação para o cliente, os funcionários remanescentes da empresa dedicarão seu tempo ao atendimento em casos extremamente específicos de venda e pós-venda.
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+A aplicação web é direcionada à todas as pessoas maiores de 18 anos, as quais pretendem adquirir ou já tem um veículo automotor, que não tem tempo de se deslocar para uma agência física ou desejam um jeito completamente prático de contratar uma boa proteção automotiva com diversos opcionais.
