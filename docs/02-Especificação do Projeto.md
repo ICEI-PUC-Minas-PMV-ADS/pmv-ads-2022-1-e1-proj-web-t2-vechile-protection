@@ -8,13 +8,14 @@ As personas levantadas durante o processo de entendimento do problema são apres
 
 Lucas Pereira tem 25 anos, é estudante de TI na UFRN. Gosta muito de pedir comida por aplicativo e usa bastante UBER como meio de transporte, prefere o turno da noite e gosta de festas. Na horas livres gosta de ler sobre mecânica e acompanha as notícias da revista Quatro Rodas. Utiliza muitos aplicativos, alguns deles são: Instagram, Twitter, Facebook, Whatsapp, Telegram, Nubank, Youtube, Uber, iFood.
 
-Iury Rodrigues
+Iury Rodrigues tem 26 anos, é analista de sistemas júnior na TOTVS. Gosta de comprar boas roupas online, cuida da aparência, acorda cedo e aproveita de comidas saudáveis. No seu tempo livre joga no computador, lê livros de economias e técnicas de desenvolvimento. Usa no dia a dia mais frequentemente, os aplicativos como: Telegram, Whatsapp, Banco Inter, Uber, Linkedln.
 
-Osvaldo Antunes
+Osvaldo Antunes tem 35 anos, é taxista. Se frustra por não ter completado o ensino médio, trabalhar muito e ter pouco retorno, pagar por muito combustível. Se motive no sonho de conseguir montar uma frota para administrar e ter condições para pagar por uma boa educação para a família. Entre suas corridas, Osvaldo gosta de ler notícias e ouvir podcasts relacionado a política do país. Usa com frequência, os aplicativos como: Youtube, Spotify e Facebook.
 
-Lucas Guilherme
+Lucas Guilherme tem 34 anos, é engenheiro mecânico aeronáutico e formado em engenharia mecânica pela UFMG. Lucas, gosta de jogar video games e praticar produção musical nas horas vagas. Se arrepende por investir em empresas e fornecedores que se dizem de qualidade mas decepcionam e de não obter as metas desejadas no aeroporto em que trabalha. Suas motivações são sua história e tudo que já percorreu para conquistar o que tem hoje Sua família. Usa Instagram, WhatsApp, Aplicativos Bancários, LinkedIn.
 
-José Antônio Pereira da Silva
+José Antônio Pereira da Silva tem 56 anos, desempregado e atualmente é motorista de aplicativo. Se motiva em sua família e sua fé em Deus. Se frustra por não conseguir ser presente no crescimento de seus filhos, por estar desempregado e não ter estudado. Gosta de assistir os jogos do Vasco da Gama, ir aos encontros familiares no domingo e após a empresa onde trabalhava falir, José que não achou espaço no mercado de trabalho, se viu obrigado a pegar o seu carro e trabalhar como motorista de aplicativo para sustentar sua família. Usa com mais frequência os seguintes aplicativos: Instagram, Uber, 99, In Driver.
+
 
 ## Histórias de Usuários
 
