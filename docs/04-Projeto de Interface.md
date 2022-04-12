@@ -56,25 +56,54 @@ Ao clicar no botão abrirá um formulário para preenchimento com opções de ma
 - Botão para cotar: Apartir dos dados fornecidos o sistema vai gerar um valor para todos os opcionais e dados fornecidos pelo cliente.
 - Botão para contratação: Após a cotação o cliente já pode contratar o serviço.
 
-Seção - Perguntas frequentes.
+**Seção - Perguntas frequentes**
+
+Nessa seção terá botões com perguntas comuns que o cliente tem e em cada botão que ele apertar irá apresentar a resposta.
+
+**Seção - Melhores avaliações da empresa**
+
+Essa seção não terá nenhum componente que o cliente possa interagir, ela vai ter recortes das avaliações feitas por clientes que já aderiram e utilizaram do serviços fornecidos pela empresa. Essencialmente terá uma foto, um comentário e a nota dada.
+
+**Seção - Empresas parceiras**
+
+Essa seção vai apresentar o logo das empresas que atuam em conjunto com a empresa de proteção para o atendimento que o cliente solicitar. Cada logo terá um botão em baixo com o nome **Nos conheça** que irá direcionar diretamente para o site daquela empresa parceira.
+
+**Seção - Trabalhe conosco**
+
+Nessa parte terá um pequeno formulário para preencher.
+
+- Nome
+- e-mail
+- Telefone
+- Algum comentário pertinente daquele candidato
+- Botão para carregar currículo
+- Botão para envio do currículo
+
+### **Tela - Para o Associado**
+
+O cliente vai fornecer o número do contrato e CPF e poderá apertar nos seguinte botões:
+
+- Botão do Manual do associado: para baixar um PDF com todos os seus direitos e deveres com relação a empresa.
+- Botão 1ª via de boleto.
+- Botão 2ª via de boleto.
 
 
+### **Tela - Blog de notícias**
 
-Seção - Melhores avaliações da empresa.
+Aqui terá diversas notícias sobre proteção automotiva, direção defensiva, assuntos relacionados ao trânsito de maneira geral. Cada notícia tem seu título em destaque com alguma imagem e um pequeno recorte do texto.
 
-Seção - empresas parceiras.
+### **Ícone - Entre em contato**
 
-Seção - Trabalhe conosco.
+Em todas as telas terá um ícone na tela para entrar em contato. Ao clicar no botão vai ter algumas opções para formas de contato como: 
 
-Ícone tela - Entre em contato. (rolando na tela, na parte inferior).
+- Entrar em contato via chat
+- Entrar em contato via WhatsApp
+- Entrar em contato via e-mail
+- Entrar em contato via Telefone
+- Entrar em contato ...
 
-**Tela - Manual do associado + 1ª e 2ª via de boletos.**
+Aparecerá o tempo estimado para atendimento fornecido pela empresa e em seguida a empresa entrará em contato de acordo com o pedido do cliente.
 
-Ícone tela - Entre em contato. (rolando na tela, na parte inferior).
-
-**Tela - Blog de notícias.**
-
-Ícone tela - Entre em contato. (rolando na tela, na parte inferior).
 
 
 ![Exemplo de Wireframe](img/wireframe-example.png)
