@@ -39,21 +39,21 @@ Nessa primeira parte faremos uma breve apresentação da empresa com imagens e p
 >- Furto
 >- Roubo
 >- Vidros trincados
->- Guincho
+>- Guincho (Assistência 24|| Ottoni)
 >- Carro reserva
->- ...
+>- Colisão
 
 > **Botão da moto**
 >- Furto
 >- Roubo
 >- Assistência 24h
->- ...
+>- Colisão
 
 **Seção - Botão de cotação**
 
 Ao clicar no botão abrirá um formulário para preenchimento com opções de marcar, para digitar os dados do cliente.
 
-- Botão para cotar: Apartir dos dados fornecidos o sistema vai gerar um valor para todos os opcionais e dados fornecidos pelo cliente.
+- Botão para cotar: Apartir dos dados fornecidos o sistema vai gerar um valor para ( a proteção, já co os valores dos opcionais ja imbutidos no valor|| Ottoni)todos os opcionais e dados fornecidos pelo cliente.
 - Botão para contratação: Após a cotação o cliente já pode contratar o serviço.
 
 **Seção - Perguntas frequentes**
