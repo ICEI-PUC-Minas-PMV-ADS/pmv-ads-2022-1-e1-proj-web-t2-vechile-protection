@@ -6,7 +6,7 @@
 
 `SEMESTRE` 1º Semestre (2022.1)
 
-Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
+Estamos desenvolvendo uma aplicação web (site) que fornece serviços de cotação, atendimento e autoatendimento da proteção automotiva de maneira totalmente remota.
 
 ## Integrantes
 
