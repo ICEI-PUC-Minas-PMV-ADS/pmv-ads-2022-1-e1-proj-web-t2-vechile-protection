@@ -23,17 +23,42 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 A ideia desse documento é descrever essas telas dizendo para que elas servem e o que elas vão ter…. o que vai ser visível para o usuário, assim como no projeto exemplo do portal de notícias.
 
-**Tela - Home**
+### **Tela - Home**
 
-Cabeçalho da página vai conter links para as outras telas e para algumas seções.
+A tela home é onde vai se concentrar a maior parte das funcionalidades da aplicação web. Dividimos elas em seções, que são partes dessa tela/página, pensando em um novo cliente. No topo da página teremos um cabeçalho com o logo da empresa, direcionamento para outras telas e uma barra de navegação com as seções do site.
 
-Seção - Apresentação da empresa.
+**Seção - Apresentação da empresa**
 
-Seção - Planos de proteção. (foco nas opções, botões com os opcionais o que ela tem e cobre).
+Nessa primeira parte faremos uma breve apresentação da empresa com imagens e pouco texto, focando em que tipos de soluções a empresa de proteção fornece, as facilidades de acesso e adesão, do suporte, da qualidade e do foco no cliente. Em outras palavras, seria um cartão de visitas e convite à adesão da pessoa que está olhando.
 
-Seção - Botão cotação. (Abre dinamicamente na página).
+**Seção - Planos de proteção**
+
+É possível ver todos os opcionais que a empresa fornece, com botões interativos. Com botões de diferentes tipos de veículos e quando apertamos neles aparece todos os opcionais ilustrados em ícones.
+
+> **Botão do carro**
+>- Furto
+>- Roubo
+>- Vidros trincados
+>- Guincho
+>- Carro reserva
+>- ...
+
+> **Botão da moto**
+>- Furto
+>- Roubo
+>- Assistência 24h
+>- ...
+
+**Seção - Botão de cotação**
+
+Ao clicar no botão abrirá um formulário para preenchimento com opções de marcar, para digitar os dados do cliente.
+
+- Botão para cotar: Apartir dos dados fornecidos o sistema vai gerar um valor para todos os opcionais e dados fornecidos pelo cliente.
+- Botão para contratação: Após a cotação o cliente já pode contratar o serviço.
 
 Seção - Perguntas frequentes.
+
+
 
 Seção - Melhores avaliações da empresa.
 
