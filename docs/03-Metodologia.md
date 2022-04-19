@@ -23,6 +23,19 @@ Os ambientes de trabalho utilizados e onde serão produzidos os artefatos do pro
 > - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
 
 ## Gerenciamento de Projeto
+Utilizando metodologias ágeis conforme o scrum, a equipe de projeto ficou dividida em:
+#### Scrum Master: 
+- Anderson do Carmo
+#### Product Owner: 
+- Vinicius Ottoni
+#### Equipe de desenvolvimento:
+- Leandro Furtado
+#### Equipe de Design:
+- Victor Marcos
+
+
+
+
 
 ### Divisão de Papéis
 
