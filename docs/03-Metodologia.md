@@ -7,6 +7,8 @@ A metodologia a ser utilizada é de que toda entrega com transparência. Uma ins
 
 
 ## Ambientes de trabalho:
+Os ambientes de trabalho utilizados e onde serão produzidos os artefatos do projeto serão conforme indica a imagem abaixo:
+
 ![Workspace](img/workspace.png)
 
 Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
