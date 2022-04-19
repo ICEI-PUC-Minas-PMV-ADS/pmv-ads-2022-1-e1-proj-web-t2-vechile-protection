@@ -12,7 +12,7 @@ Os ambientes de trabalho utilizados e onde serão produzidos os artefatos do pro
 ![Workspace](img/workspace.png)
 ### Segue os links de cada ambiente informado:
 - [Repositório GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-vechile-protection)
-- Interface e Wireframes: [Moqups](https://app.moqups.com/fINfnxbExoGxMFqV1S40dykbsNIbcYYH/view/page/afcf69248?ui=0) Figma: Ainda não tem
+- Interface e Wireframes: [Moqups](https://app.moqups.com/fINfnxbExoGxMFqV1S40dykbsNIbcYYH/view/page/afcf69248?ui=0) Figma: ~Ainda não tem~
 - Trello: ~Ainda não tem~
 
 > **Links Úteis**:
