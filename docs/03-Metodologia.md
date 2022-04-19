@@ -6,7 +6,8 @@
 A metodologia a ser utilizada é a de SCRUM, onde será feito toda entrega com transparência. Uma inspeção constante de tudo
 que está sendo feito aos poucos. Ambiente de trabalho é de reuniões realizada pela equipe via Teams para esclarecimento de
 dúvidas, sugestões para o projeto e apresentações dos artefatos. Sendo todo o código fonte trabalhado no repositório Github, desde a criação de sprints
-até as próprias representações do projeto.
+até as próprias representações do projeto, usando como base toda as prioridades dos requisitos citados na Especificação do Projeto.
+
 
 ## Controle de Versão
 
