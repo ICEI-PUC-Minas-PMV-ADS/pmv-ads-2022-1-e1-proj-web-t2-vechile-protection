@@ -3,29 +3,11 @@
 
 <span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
 
-A metodologia a ser utilizada é de que toda entrega com transparência. Uma inspeção constante de tudo que está sendo feito aos poucos. Ambiente de trabalho é de reuniões realizada pela equipe via Teams para esclarecimento de dúvidas, sugestões para o projeto e apresentações dos artefatos. Sendo todo o código fonte trabalhado no repositório Github, desde a criação de sprints até as próprias representações do projeto, usando como base toda as prioridades dos requisitos citados na Especificação do Projeto.
+A metodologia a ser utilizada é de que toda entrega com transparência. Uma inspeção constante de tudo que está sendo feito aos poucos. Ambiente de trabalho é de reuniões realizada pela equipe via Teams para esclarecimento de dúvidas, sugestões para o projeto e apresentações dos artefatos. Sendo todo o código fonte trabalhado no repositório Github, desde a criação de sprints até as próprias representações do projeto, usando como base toda as prioridades dos requisitos citados na Especificação do Projeto. Ambientes de trabalho em geral serão descritos abaixo:
 
 
-## Controle de Versão
+## Ambientes de trabalho:
 
-A ferramenta de controle de versão adotada no projeto foi o
-[Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-foi utilizado para hospedagem do repositório.
-
-O projeto segue a seguinte convenção para o nome de branches:
-
-- `main`: versão estável já testada do software
-- `unstable`: versão já testada do software, porém instável
-- `testing`: versão em testes do software
-- `dev`: versão de desenvolvimento do software
-
-Quanto à gerência de issues, o projeto adota a seguinte convenção para
-etiquetas:
-
-- `documentation`: melhorias ou acréscimos à documentação
-- `bug`: uma funcionalidade encontra-se com problemas
-- `enhancement`: uma funcionalidade precisa ser melhorada
-- `feature`: uma nova funcionalidade precisa ser introduzida
 
 Discuta como a configuração do projeto foi feita na ferramenta de versionamento escolhida. Exponha como a gerência de tags, merges, commits e branchs é realizada. Discuta como a gerência de issues foi realizada.
 
