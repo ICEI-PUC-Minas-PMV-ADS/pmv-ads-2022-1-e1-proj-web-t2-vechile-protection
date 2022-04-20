@@ -1,8 +1,8 @@
 # Arquitetura da Solução
 
-<span style="color:red">Pré-requisitos: <a href="![image](https://user-images.githubusercontent.com/83013553/164117424-3d5f3449-eb00-4b7d-ba44-7d7859e03e65.png)"> Projeto de Interface</a></span>
+<span style="color:red">Pré-requisitos: </span>
 
-Definição de como o software é estruturado em termos dos componentes que fazem parte da solução e do ambiente de hospedagem da aplicação.
+Esta seção apresenta os detalhes técnicos da solução criada pela equipe, tratando dos componentes que fazem parte da solução e do ambiente de hospedagem da solução.
 
 ## Diagrama de componentes
 
