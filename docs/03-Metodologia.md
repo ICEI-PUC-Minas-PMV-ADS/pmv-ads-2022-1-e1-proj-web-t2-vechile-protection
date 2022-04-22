@@ -12,15 +12,10 @@ Os ambientes de trabalho utilizados e onde serão produzidos os artefatos do pro
 ![Workspace](img/ambientes.png)
 ### Segue os links de cada ambiente informado:
 - [Repositório GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-vechile-protection)
-- Interface e Wireframes: [Moqups](https://app.moqups.com/fINfnxbExoGxMFqV1S40dykbsNIbcYYH/view/page/afcf69248?ui=0) Figma: ~Ainda não tem~
-- Trello: ~Ainda não tem~
+- Interface e Wireframes: [Moqups](https://app.moqups.com/fINfnxbExoGxMFqV1S40dykbsNIbcYYH/view/page/afcf69248?ui=0) & [Figma](https://www.figma.com/file/AcWfTVOZBj3Bm0ECVKk9TM/Vechile-protection?node-id=0%3A1)
+- Projects: [Projects](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-vechile-protection/projects/2)
 
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
+
 
 ## Gerenciamento de Projeto
 Utilizando metodologias ágeis conforme o scrum, a equipe de projeto ficou dividida em:
