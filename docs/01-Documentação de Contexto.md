@@ -24,7 +24,7 @@ Os objetivos da aplicação é ser desenvolvido um site para cotar a proteção,
 
 A proposta do site se aplica para o usuário que irá contratar o serviço fornecendo agilidade, facilidade para cotar e contratar de qualquer lugar, sem a necessidade de ser feito em algum horário especifico. Além disso, as informações necessárias para proteção veicular podem ser obtidas de imediato sem a necessidade de resposta de algum funcionário.
 
-Para a seguradora, terá a redução no número de funcionários que fariam a cotação para o cliente, os funcionários remanescentes da empresa dedicarão seu tempo ao atendimento em casos extremamente específicos de venda e pós-venda.
+Para a seguradora, terá a redução no número de funcionários que fariam a cotação para o cliente. Os funcionários remanescentes da empresa dedicarão seu tempo ao atendimento em casos extremamente específicos de venda e pós-venda.
 
 ## Público-Alvo
 
