@@ -29,18 +29,18 @@ A tela home é onde vai se concentrar a maior parte das funcionalidades da aplic
 
 
 > **Opção de proteção para carro**
->- Furto
->- Roubo
->- Vidros trincados
->- Guincho (Assistência 24|| Ottoni)
->- Carro reserva
->- Colisão
+- Furto
+- Roubo
+- Vidros trincados
+- Guincho (Assistência 24|| Ottoni)
+- Carro reserva
+- Colisão
 
 > **Opção de proteção para moto**
->- Furto
->- Roubo
->- Assistência 24h
->- Colisão
+- Furto
+- Roubo
+- Assistência 24h
+- Colisão
 
 **Página - Cotação**
 
