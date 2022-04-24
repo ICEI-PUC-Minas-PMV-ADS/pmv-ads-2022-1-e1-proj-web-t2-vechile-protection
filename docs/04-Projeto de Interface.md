@@ -19,7 +19,7 @@ A tela home é onde vai se concentrar a maior parte das funcionalidades da aplic
 
 **Body da Home Page - Apresentação da empresa**
 
-Nessa primeira parte faremos uma breve apresentação da empresa com imagens e pouco texto, focando em que tipos de soluções a empresa de proteção fornece, as facilidades de acesso e adesão, do suporte, da qualidade e do foco no cliente. Em outras palavras, seria um cartão de visitas e convite à adesão da pessoa que está olhando.
+- Nessa primeira parte faremos uma breve apresentação da empresa com imagens e pouco texto, focando em que tipos de soluções a empresa de proteção fornece, as   facilidades de acesso e adesão, do suporte, da qualidade e do foco no cliente. Em outras palavras, seria um cartão de visitas e convite à adesão da pessoa que está olhando.
 
 **Página - Planos de proteção**
 
