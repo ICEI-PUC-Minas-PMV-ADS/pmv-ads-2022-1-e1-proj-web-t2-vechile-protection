@@ -37,10 +37,10 @@ A tela home é onde vai se concentrar a maior parte das funcionalidades da aplic
 >- Colisão
 
 > **Opção de proteção para moto**
-- Furto
-- Roubo
-- Assistência 24h
-- Colisão
+>- Furto
+>- Roubo
+>- Assistência 24h
+>- Colisão
 
 **Página - Cotação**
 
