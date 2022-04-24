@@ -14,11 +14,11 @@ Olhando por todo esse espectro social, é extremamente importante e útil a cons
 
 ## Problema
 
-Dificuldade em emitir boletos, em contratar os planos, em entrar em contato devido aos horários que é comercial. O atendimento é em geral sempre presencial, falta de transparência nos planos contratados.
+O problema que a aplicação pretende solucionar é a dificuldade em emitir boletos vencidos por parte do cliente, em contratar os planos de forma rápida, em entrar em contato aos horários que é comercial ou em horários indisponíveis e a falta de transparência nos planos contratados.
 
 ## Objetivos
 
-Será desenvolvido um site para a contratação e uso do serviço de proteção veicular.
+Os objetivos da aplicação é ser desenvolvido um site para cotar a proteção, contratar a proteção, passar informações ao cliente da proteção veícular, além de gerar mais acessibilidade em geral ao atendimento do cliente de forma prática e expandindo a forma de atendimento.
 
 ## Justificativa
 
