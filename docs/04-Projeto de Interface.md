@@ -17,7 +17,7 @@ A tela home é onde vai se concentrar a maior parte das funcionalidades da aplic
 
 ![image](https://user-images.githubusercontent.com/86278628/164995051-48db883e-a137-44d4-9b36-bc3ed9a6b9dc.png)
 
-**Body da Home Page - Apresentação da empresa**
+**Body da Home Page - Breve apresentação da empresa**
 
 - Nessa primeira parte faremos uma breve apresentação da empresa com imagens e pouco texto, focando em que tipos de soluções a empresa de proteção fornece, as   facilidades de acesso e adesão, do suporte, da qualidade e do foco no cliente. Em outras palavras, seria um cartão de visitas e convite à adesão da pessoa que está olhando.
 
@@ -37,10 +37,10 @@ A tela home é onde vai se concentrar a maior parte das funcionalidades da aplic
 >- Colisão
 
 > **Opção de proteção para moto**
->- Furto
->- Roubo
->- Assistência 24h
->- Colisão
+- Furto
+- Roubo
+- Assistência 24h
+- Colisão
 
 **Página - Cotação**
 
@@ -86,3 +86,7 @@ A página do cliente contem algumas opções importantes, como a emissão de bol
 - Tela lateral com as informações do plano contratado.
 - Botão de redirecionamento para a realização de avaliações.
 
+Links para acessar as página do Figma e Moqups:
+
+- https://app.moqups.com/fINfnxbExoGxMFqV1S40dykbsNIbcYYH/view/page/afcf69248
+- https://www.figma.com/file/AcWfTVOZBj3Bm0ECVKk9TM/Vechile-protection?node-id=0%3A1
