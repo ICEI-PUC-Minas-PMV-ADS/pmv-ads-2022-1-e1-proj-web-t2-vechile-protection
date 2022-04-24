@@ -85,8 +85,3 @@ A página do cliente contem algumas opções importantes, como a emissão de bol
 - Botão de atualiação de dados contendo um formulário para a inserção dos novos dados.
 - Tela lateral com as informações do plano contratado.
 - Botão de redirecionamento para a realização de avaliações.
-
-Links para acessar as página do Figma e Moqups:
-
-- https://app.moqups.com/fINfnxbExoGxMFqV1S40dykbsNIbcYYH/view/page/afcf69248
-- https://www.figma.com/file/AcWfTVOZBj3Bm0ECVKk9TM/Vechile-protection?node-id=0%3A1
