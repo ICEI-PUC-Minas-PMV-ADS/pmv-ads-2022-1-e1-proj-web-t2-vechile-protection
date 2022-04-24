@@ -25,7 +25,7 @@ A solução implementada conta com os seguintes módulos:
 
 
 ## Tecnologias Utilizadas
-Para essa solução, usaremos para desenvolver o código HTML, CSS e Javascpript. Usaremos o Visual Studio Code como IDE e o Github para planejamento de sprints e hospedagem da solução. Utilizaremos também a API do Google Maps em nossa solução.
+Para essa solução, usaremos para desenvolver o código HTML, CSS e Javascript. Usaremos o Visual Studio Code como IDE e o Github para planejamento de sprints e hospedagem da solução. Utilizaremos também a API do Google Maps em nossa solução.
 
 
 
