@@ -12,7 +12,6 @@ Estamos desenvolvendo uma aplicação web (site) que fornece serviços de cotaç
 
 * Victor Marcos Olivera Vieira
 * Anderson Do Carmo Ramos
-* Jedson Fernandes De Amorim
 * Leandro Furtado De Souza
 * Vinicius Ottoni Guimarães Soares
 
