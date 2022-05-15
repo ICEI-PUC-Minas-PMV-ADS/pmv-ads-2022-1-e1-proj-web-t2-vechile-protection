@@ -1,0 +1,187 @@
+/* importação de fonte */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
+
+/* a tag (*) significa que o estilo/ formatação será aplicado em tudo */
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    outline: none;
+    font-family: "Lato";
+}
+
+/* DEFININDO CORES */
+:root {
+    --blue: #7bffff;
+    --black: black;
+    --gray: gray;
+}
+
+/* Trabalhando no Body e no html */
+html,
+body {
+    width: 100%;
+    /* Largura de 100% */
+    overflow-x: initial !important;
+    /* Esconde a barra de rolagem da horizontal (hide bar) */
+    background-color: #fff;
+}
+
+/* Estilizando o cabeçalho 
+Porcentagem --> O tamanho é referido ao elemento pai da classe
+Px(Pixel) --> O tamanho é fixo independente.
+*/
+
+
+/* Utilizando tamanhos e alturas RESPONSÍVAS */
+
+nav {
+    width: 100%;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.brand {
+    font-size: 50px;
+    color: var(--black);
+    text-decoration: none;
+    /* Retira o risco do texto */
+}
+
+.brand:hover {
+    transition: 1s;
+    font-size: 60px;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+nav ul li {
+    text-decoration: none;
+    list-style: none;
+    padding: 20px;
+}
+
+/* Edita os botões criados no cabeçalho */
+nav ul li a {
+    text-decoration: none;
+    color: #1C1C1C;
+    font-size: 17px;
+}
+
+/* Edita os botões criados no cabeçalho quando o mouse passa em cima (:hover) */
+nav ul li a:hover {
+    transition: 1s;
+    text-decoration: none;
+    color: #1C1C1C;
+    font-size: 20px;
+}
+
+
+footer {
+    background-color: #7a7a7a;
+    width: 100%;
+    height: 50%;
+}
+
+footer .main {
+    width: 100%;
+    height: 200px;
+    padding: 30px;
+}
+
+.footer-links {
+    max-width: 1000px;
+    min-width: 300px;
+    position: relative;
+    left: 150px;
+    top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.footer-redes {
+    max-width: 1000px;
+    min-width: 300px;
+    display: flex;
+    padding-left: 100px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer-endereco {
+    max-width: 1000px;
+    min-width: 300px;
+    padding-left: 100px;
+}
+
+.redes-icons img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+footer .last {
+    background-color: #7a7a7a;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.sua-protecao {
+    font-size: 23px;
+    color: aqua;
+    border-color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 100px;
+    padding-left: 20px;
+}
+
+.sua-protecao h2 {
+    font-family: "Lato";
+    color: black;
+}
+
+/* AVALIAÇÕES CLIENTES =============================================== */
+.content .sloganav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.stars .star {
+    width: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center center;
+    padding-left: 400px;
+    padding-right: 400px;
+}
+
+.card .image-usuario {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    left: 20px;
+}
+
+.card p {
+    position: relative;
+    bottom: 135px;
+    margin-left: 180px;
+    padding-bottom: 50px;
+}
