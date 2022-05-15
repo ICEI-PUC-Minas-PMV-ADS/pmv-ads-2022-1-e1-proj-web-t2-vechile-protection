@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhe conosco!</title>
+    <link rel="stylesheet" href="css/trabalheconosco_style.css">
+    <link rel="icon" href="img/icon_protection.png">
+</head>
+
+<body>
+    <header>
+        <div class="content">
+            <nav>
+                <img src="img/icon_protection.png" alt="Icone da Empresa">
+                <a href="#homepage" class="brand"><strong>VP</strong>rotection</a>
+                <h2>Venha trabalhar conosco!</h2>
+            </nav>
+
+            <div class="header-block">
+                <div class="form-description">
+                    <h2>Após o preenchimento do formulário aguarde o nosso contato!</h2>
+                    <h2>Por isso é bastante importante os dados estarem corretos!</h2>
+                </div>
+                <!-- AREA DO FORMULARIO -->
+                <!-- CRIAÇÃO DE FORMULÁRIO POSSUI DIVERSAS TAGS DIFERENTES -->
+                <form class="formulario" action="">
+                    <fieldset class="box">
+                        <br>
+                        <legend><b>PREENCHA O FORMULÁRIO ABAIXO:</b></legend>
+                        <div class="inputs">
+                            <!-- o "for" da label refere ao "id" dos inputs -->
+                            <label for="nome">Nome completo:</label>
+                            <input type="text" class="inputUser" name="nome" id="nome" required>
+                            <br>
+                            <!-- A TAG "REQUIRED" obriga o uso do input -->
+                            <label for="email">Email:</label>
+                            <input type="text" class="inputEmail" name="email" id="email" required>
+                            <br>
+                            <label for="telefone">Telefone (WhatsApp de preferência):</label>
+                            <input type="tel" class="inputTelefone" name="telefone" id="telefone" required>
+                        </div>
+                        <br>
+                        <h4>Sexo:</h4>
+                        <div class="sexo">
+                            <!-- O campo VALUE é para quando receber o formulario saber o valor marcado pelo usuario -->
+                            <input type="radio" class="inputGenero" name="genero" id="feminino" value="feminino"
+                                required>
+                            <label for="feminino">Feminino</label>
+                            <input type="radio" class="inputGenero" name="genero" id="masculino" value="masculino"
+                                required>
+                            <label for="masculino">Masculino</label>
+                            <input type="radio" class="inputGenero" name="genero" id="outro" value="outro" required>
+                            <label for="outro">Outro</label>
+                        </div>
+                        <br>
+                        <h4>Data de nascimento:</h4>
+                        <div class="data-nascimento">
+                            <input type="date" class="inputDataNascimento" name="data" id="data">
+                        </div>
+                        <br>
+                        <div class="inputs">
+                            <!-- o "for" da label refere ao "id" dos inputs -->
+                            <label for="estado">Estado:</label>
+                            <input type="text" class="inputCidade" name="estado" id="estado" required>
+                            <br>
+                            <!-- A TAG "REQUIRED" obriga o uso do input -->
+                            <label for="cidade">Cidade:</label>
+                            <input type="text" class="inputCidade" name="cidade" id="cidade" required>
+                            <br>
+                            <label for="endereco">Endereço:</label>
+                            <input type="text" class="inputEndereco" name="endereco" id="endereco" required>
+                        </div>
+                        <br>
+                        <div class="inputArchive">
+                            <label for="arquivo">Deixe o seu curriculo aqui:</label>
+                            <br>
+                            <input type="file" name="arquivo" id="arquivo" accept="application/*">
+                        </div>
+                        <br>
+                        <br>
+                        <div class="enviarBtn">
+                            <input class="enviar" type="submit" name="enviar" id="enviar">
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
+    </header>
+    <footer>
+        <div class="main">
+            <div class="content footer-links">
+                <div class="footer-company">
+                    <h3>Contatos:</h3>
+                    <h5>Assistencia 24hrs: 0800 923 3294</h5>
+                    <h5>WhatsApp Suporte: +55 31 9999-8838</h5>
+                </div>
+                <div class="footer-endereco">
+                    <h3>Endereço:</h3>
+                    <h5>Rua Solitude Pereira Aragão</h5>
+                    <h5>Número: 870 7ºandar</h5>
+                </div>
+                <div class="footer-redes">
+                    <h3>Redes sociais:</h3>
+                    <div class="redes-icons">
+                        <a href="http://www.instagram.com" target="_blank"><img src="img/instagram.png"
+                                alt="Instagram"></a>
+                        <a href="http://web.whatsapp.com" target="_blank"><img href="" src="img/whatsapp.png"
+                                alt="Whatsapp"></a>
+                        <a href="http://linkedin.com" target="_blank"><img src="img/linkedin.png" alt="LinkedIn"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="last">
+            <h3>Copyright VProtection 2022 º PUC MINAS </h3>
+        </div>
+    </footer>
+</body>
+
+</html>
