@@ -14,17 +14,17 @@ Olhando por todo esse espectro social, é extremamente importante e útil a cons
 
 ## Problema
 
-Dificuldade em emitir boletos, em contratar os planos, em entrar em contato devido aos horários que é comercial. O atendimento é em geral sempre presencial, falta de transparência nos planos contratados.
+O problema que a aplicação pretende solucionar é a dificuldade em emitir boletos vencidos por parte do cliente, em contratar os planos de forma rápida, em entrar em contato aos horários que é comercial ou em horários indisponíveis e a falta de transparência nos planos contratados.
 
 ## Objetivos
 
-Será desenvolvido um site para a contratação e uso do serviço de proteção veicular.
+Os objetivos da aplicação é ser desenvolvido um site para cotar a proteção, contratar a proteção, passar informações ao cliente da proteção veícular, além de gerar mais acessibilidade em geral ao atendimento do cliente de forma prática e expandindo a forma de atendimento.
 
 ## Justificativa
 
 A proposta do site se aplica para o usuário que irá contratar o serviço fornecendo agilidade, facilidade para cotar e contratar de qualquer lugar, sem a necessidade de ser feito em algum horário especifico. Além disso, as informações necessárias para proteção veicular podem ser obtidas de imediato sem a necessidade de resposta de algum funcionário.
 
-Para a seguradora, haverá a redução no número de funcionários que fariam a cotação para o cliente, os funcionários remanescentes da empresa dedicarão seu tempo ao atendimento em casos extremamente específicos de venda e pós-venda.
+Para a seguradora, terá a redução no número de funcionários que fariam a cotação para o cliente. Os funcionários remanescentes da empresa dedicarão seu tempo ao atendimento em casos extremamente específicos de venda e pós-venda.
 
 ## Público-Alvo
 

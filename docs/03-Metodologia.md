@@ -1,26 +1,21 @@
 
 # Metodologia
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Documentação de Especificação</a></span>
-
 A metodologia a ser utilizada é do SCRUM onde toda entrega é com transparência, uma inspeção constante de tudo que está sendo feito aos poucos. Ambiente de trabalho é de reuniões realizada pela equipe via Teams para esclarecimento de dúvidas, sugestões para o projeto e apresentações dos artefatos. Sendo todo o código fonte trabalhado no repositório Github, desde a criação de sprints até as próprias representações do projeto, usando como base toda as prioridades dos requisitos citados na Especificação do Projeto. Ambientes de trabalho em geral serão descritos abaixo:
 
 
 ## Ambientes de trabalho:
 Os ambientes de trabalho utilizados e onde serão produzidos os artefatos do projeto serão conforme indica a imagem abaixo:
 
-![Workspace](img/workspace.png)
+![Workspace](img/ambientes.png)
 ### Segue os links de cada ambiente informado:
 - [Repositório GitHub](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-vechile-protection)
-- Interface e Wireframes: [Moqups](https://app.moqups.com/fINfnxbExoGxMFqV1S40dykbsNIbcYYH/view/page/afcf69248?ui=0) Figma: ~Ainda não tem~
-- Trello: ~Ainda não tem~
+- Interface e Wireframes: [Moqups](https://app.moqups.com/fINfnxbExoGxMFqV1S40dykbsNIbcYYH/view/page/afcf69248?ui=0) & [Figma](https://www.figma.com/file/AcWfTVOZBj3Bm0ECVKk9TM/Vechile-protection?node-id=0%3A1)
+- Projects: [Projects](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-vechile-protection/projects/2)
 
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
->  - [Comparando fluxos de trabalho](https://www.atlassian.com/br/git/tutorials/comparing-workflows)
-> - [Understanding the GitHub flow](https://guides.github.com/introduction/flow/)
-> - [The gitflow workflow - in less than 5 mins](https://www.youtube.com/watch?v=1SXpE08hvGs)
+## Gestão do Código Fonte:
+A gestão se da por manutenções e opiniões serão realizadas pela equipe ou desenvolvedor separadas em branches pelo próprio GitHub onde passa por partes de análise e discussão para o merge e commit serem realizados.
+
 
 ## Gerenciamento de Projeto
 Utilizando metodologias ágeis conforme o scrum, a equipe de projeto ficou dividida em:
@@ -33,45 +28,23 @@ Utilizando metodologias ágeis conforme o scrum, a equipe de projeto ficou divid
 #### Equipe de Design:
 - Victor Marcos
 
+Sendo então divido as tarefas e organizadas pelo próprio GitHub(Projects), onde encontramos:
+- Product Backlog: Local onde todas as funcionalidades da aplicação se encontra e que serão realizadas ao decorrer do projeto.
+- To do: Local que é usado como as Sprints Backlogs.
+- In Progress: Tudo que está sendo realizado no momento.
+- Done: Tudo que já foi feito desde o inicio.
+Sendo também possível a inserção de novas colunas ao decorrer do projeto.
 
+Segue o exemplo Kanban abaixo:
+![Scrumproject](img/Projects.png)
 
-
-
-### Divisão de Papéis
-
-Apresente a divisão de papéis entre os membros do grupo.
-
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu 
-> Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
-
-### Processo
-
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
 
 ### Ferramentas
-
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+- Editor de código (VS Code).
+- Microsoft Teams e Discord para reuniões diárias, por serem mais didáticos, organizados e simples ao mesmo tempo e no caso do Teams gravar as reuniões.
+- Ferramentas de desenho de tela (Figma e Moqups).
+- Ferramentas do Github
 
-O editor de código foi escolhido porque ele possui uma integração com o
-sistema de versão. As ferramentas de comunicação utilizadas possuem
-integração semelhante e por isso foram selecionadas. Por fim, para criar
-diagramas utilizamos essa ferramenta por melhor captar as
-necessidades da nossa solução.
 
-Liste quais ferramentas foram empregadas no desenvolvimento do projeto, justificando a escolha delas, sempre que possível.
- 
-> **Possíveis Ferramentas que auxiliarão no gerenciamento**: 
-> - [Slack](https://slack.com/)
-> - [Github](https://github.com/)

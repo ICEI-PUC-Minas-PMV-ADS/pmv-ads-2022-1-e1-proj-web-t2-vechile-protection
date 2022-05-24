@@ -31,7 +31,6 @@ A partir da compreensão do dia a dia das personas identificadas para o projeto,
 | Lucas Guilherme | Gostaria de saber as empresas terceirizadas que fornecem serviços junto com a proteção automotiva que eu contratei | Mesmo que a empresa tenha bons índices no mercado e excelentes funcionalidades, as vezes a empresa de guincho, ou de aluguel de carros não é tão boa e seria interessante saber quem são os parceiros para que eu saiba se eles também prestam bom serviço quando eu precisar |
 | Iury Rodrigues | Acessar os boletos online e pagar pelo aplicativo do banco | Não preciso esperar que chegue o boleto pelos correios |
 | José Antônio Pereira da Silva | Gostaria de saber como funciona a proteção automotiva, como contratar e entrar em contato | Não queria entrar em contato já de imediato com a empresa e nem simular antes de saber como funciona |
-| José Antônio Pereira da Silva | Desejo verificar possíveis vagas de trabalho na empresa de proteção automotiva | Estou atualmente desempregado e trabalho como motorista de aplicativo |
 | Lucas Pereira | Ter acesso ao site da proteção que seja de qualidade e otimizado | Muitas vezes acessarei pelo navegador do meu aparelho celular e já percebi que muitos sites as vezes acontecem alguns bugs |
 | Iury Rodrigues | Gostaria de poder acessar o site tanto no computador quanto no meu celular | Trabalho no notebook, mas os aplicativos de banco em geral são nos celulares e seria mais prático acessar pelo celular do que baixar no computador |
 | Iury Rodrigues | Queria saber o que outras pessoas acham da proteção veicular dessa empresa | Se as pessoas estão avaliando bem então, a possibilidade de contratar os serviços da empresa é maior e se for ruim eu nem faço pré cotação e nem entro em contato |
@@ -47,17 +46,16 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Formulário para preenchimento de dados sobre o carro e o cliente para cálculo e contratação da proteção automotiva | ALTA | 
-|RF-002| Uma forma do cliente contatar a empresa   | ALTA |
-|RF-003| Notícias sobre automóveis e direção defensiva   | BAIXA |
-|RF-004| Opção de manual do associado, onde informa para o cliente todos os seus direitos, deveres e regras de utilização   | MÉDIA |
-|RF-005| Uma forma de divulgar vagas da própria empresa de proteção veicular que visa contratação de colaboradores   | BAIXA |
-|RF-006| O site deve informar em algum local as empresas parceiras, como rastreamento, carros alugados e afins...   | BAIXA |
-|RF-007| Opção para requisitar impressão do boleto   | MÉDIA |
-|RF-008| Informação de serviços prestados disponíveis   | MÉDIA |
-|RF-009| Perguntas frequentes   | BAIXA |
-|RF-010| Melhores comentários e avaliações da empresa feito por alguns usuários   | BAIXA |
-
+|RF-001| No site deve ter um formulário para preenchimento de dados sobre o carro e o cliente para cálculo e contratação da proteção automotiva | ALTA | 
+|RF-002| O site deve deixar claro as formas do cliente contactar a empresa   | ALTA |
+|RF-003| O site deve informar e mostrar notícias sobre automóveis e direção defensiva   | BAIXA |
+|RF-004| Opção de manual do associado deve ser mostrado para o cliente no site, onde informa para o cliente todos os seus direitos, deveres e regras de utilização   | MÉDIA |
+|RF-005| O site deve informar em algum local as empresas parceiras, como rastreamento, carros alugados e afins...   | BAIXA |
+|RF-006| A aplicação deve ter a opção para requisitar impressão do boleto de mensalidade   | MÉDIA |
+|RF-007| O site tem de mostrar as informações de serviços prestados disponíveis   | MÉDIA |
+|RF-008| O site mostrará as perguntas frequentes, como forma de esclarecer as principais dúvidas.  | BAIXA |
+|RF-009| A aplicação deve mostrar no local correto, as melhores comentários e avaliações da empresa feito por alguns usuários   | BAIXA |
+|RF-010| O site deve informar no momento da cotação todos os opcionais que o cliente poderá aderir.   | MÉDIA |
 
 ### Requisitos não Funcionais
 
