@@ -185,8 +185,7 @@ footer .main {
 }
 
 .footer-redes {
-    max-width: 1000px;
-    min-width: 300px;
+    position: relative;
     display: flex;
     padding-left: 100px;
     flex-direction: column;
@@ -194,8 +193,7 @@ footer .main {
 }
 
 .footer-endereco {
-    max-width: 1000px;
-    min-width: 300px;
+    position: relative;
     padding-left: 100px;
 }
 
@@ -233,7 +231,16 @@ footer .last {
 
 /* RESPONSIVE  */
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 780px) {
+
+    .content .header-block {
+        background-size: 800px;
+        background-position: -300px;
+    }
+
+    .sua-protecao {
+        display: none;
+    }
 
     .brand {
         position: relative;
@@ -257,11 +264,11 @@ footer .last {
 
     header {
         width: 100%;
-        padding-bottom: 180%;
+        padding-bottom: 200%;
     }
 
     footer {
-        position: absolute;
+        position: relative;
         height: 400px;
         width: 100%;
     }
