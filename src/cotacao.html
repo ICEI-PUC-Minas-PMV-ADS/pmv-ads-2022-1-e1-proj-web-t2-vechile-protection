@@ -6,6 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>VP</title>
         <link rel="stylesheet" href="css/cotacao.css">
+        <script src="script/script.js" defer></script>
     </head>
     <body>
     <!--NAVBAR-->
@@ -25,7 +26,7 @@
                     <input type="text" name="modelo-veiculo">
                     <br>
                     Digite o valor de tabela FIPE do seu veiculo:
-                    <input type="text" name="valor-veiculo">
+                    <input type="text" name="valor">
                 </div>
                 <br>
                 <h4>Agora marque os opcionais desejados:</h4>
@@ -35,7 +36,7 @@
                 <input type="checkbox" name="Cobertura para terceiros" id="3">Cobertura para terceiros
                 <input type="checkbox" name="Rastreamento e monitoramento" id="4">Rastreamento e monitoramento
                 <br>
-                <input class="btn" type="button" value="Calcular mensalidade">
+                <input class="btn" type="submit" id="send" value="Calcular mensalidade">
                 
             </form>
         </div>
