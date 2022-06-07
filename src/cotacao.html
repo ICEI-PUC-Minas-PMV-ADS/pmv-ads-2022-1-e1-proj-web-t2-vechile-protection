@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>VP</title>
+        <link rel="stylesheet" href="css/cotacao.css">
+        <script src="script/script.js" defer></script>
+    </head>
+    <body>
+    <!--NAVBAR-->
+        
+        <div class="container">
+            <form>  
+                <div class="perguntas"> 
+                    <h2 class="title">Faça sua pré-cotação</h2>
+                    <br>
+                    Escolha a o tipo de veículo: 
+                    <select name="tipo">
+                        <option value="moto">Moto</option>
+                        <option value="carro">Carro</option>
+                    </select>
+                    <br>
+                    Digite a marca e o modelo do seu veiculo:
+                    <input type="text" name="modelo-veiculo">
+                    <br>
+                    Digite o valor de tabela FIPE do seu veiculo:
+                    <input type="text" name="valor">
+                </div>
+                <br>
+                <h4>Agora marque os opcionais desejados:</h4>
+                <input type="checkbox" name="Carro reserva" id="1">Carro reserva
+                <input type="checkbox" name="Reboque ilimitado" id="2">Reboque ilimitado
+                <br>
+                <input type="checkbox" name="Cobertura para terceiros" id="3">Cobertura para terceiros
+                <input type="checkbox" name="Rastreamento e monitoramento" id="4">Rastreamento e monitoramento
+                <br>
+                <input class="btn" type="submit" id="send" value="Calcular mensalidade">
+                
+            </form>
+        </div>
+    </body>
+</html>
