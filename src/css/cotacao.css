@@ -1,3 +1,43 @@
+* {
+    font-family: 'Lato';
+}
+/* NAVBAR */
+
+#navbar{
+    border-bottom: 1px solid #7a7a7a;
+}
+
+#navbar a:hover{
+    color: #7a7a7a;
+}
+
+#navbar a.active{
+    border-bottom: 1px solid #050505;
+}
+
+.navbar-brand{
+    display: flex;
+}
+
+.navbar-brand img{
+    width: 40px;
+}
+
+.navbar-brand spam{
+    font-weight: 750;
+    font-size: 1.5em;
+    margin-left: 0.5em;
+}
+
+#navbar-items .navbar-nav{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#navbar-items .nav-item{
+    margin: 0 1em;
+}
 body{
     text-align: center;
 }
@@ -27,9 +67,11 @@ input {
     border: 1px solid ;
     border-radius:  10px;
 }
-.container {
+.container2 {
     background-image: url(../img/slide2.jpg);
     background-repeat: no-repeat;
+    position: relative;
+    top: 100px;
     max-width:900px;
     margin: 0 auto;
     background-size: 900px auto;
