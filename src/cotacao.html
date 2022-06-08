@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>VP</title>
-    <link rel="stylesheet" href="css/cotacao.css" />
     <script src="script/script.js" defer></script>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/cotacao.css" />
     <!--Icons-->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
     <!--CSS-->
@@ -70,41 +70,38 @@
         <div class="perguntas">
           <h2 class="title">Faça sua pré-cotação</h2>
           <br />
-          Escolha a o tipo de veículo:
-          <select name="tipo">
-            <option value="moto">Moto</option>
-            <option value="carro">Carro</option>
-          </select>
-          <br />
-          Digite a marca e o modelo do seu veiculo:
-          <input type="text" name="modelo-veiculo" />
-          <br />
-          Digite o valor de tabela FIPE do seu veiculo:
-          <input type="text" name="valor" />
+          <div class="info">
+            Escolha a o tipo de veículo:
+            <br>
+            <select name="tipo">
+              <option value="moto">Moto</option>
+              <option value="carro">Carro</option>
+            </select>
+            <br />
+            Digite a marca e o modelo do seu veiculo:
+            <input type="text" name="modelo-veiculo" />
+            <br />
+            Digite o valor de tabela FIPE do seu veiculo:
+            <input type="text" name="valor" />
+          </div>  
         </div>
         <br />
         <h4>Agora marque os opcionais desejados:</h4>
-        <input type="checkbox" name="Carro reserva" id="1" />Carro reserva
-        <input type="checkbox" name="Reboque ilimitado" id="2" />Reboque
-        ilimitado
-        <br />
-        <input
-          type="checkbox"
-          name="Cobertura para terceiros"
-          id="3"
-        />Cobertura para terceiros
-        <input
-          type="checkbox"
-          name="Rastreamento e monitoramento"
-          id="4"
-        />Rastreamento e monitoramento
-        <br />
-        <input
-          class="btn"
-          type="submit"
-          id="send"
-          value="Calcular mensalidade"
-        />
+        <div class="opcional">  
+          <input type="checkbox" name="Carro reserva" id="1" />Carro reserva
+          <input type="checkbox" name="Reboque ilimitado" id="2" />Reboque
+          ilimitado
+          <br />
+          <input
+            type="checkbox"
+            name="Cobertura para terceiros"
+            id="3"
+          />Cobertura para terceiros
+          <input type="checkbox" name="Rastreamento e monitoramento" id="4"/>Rastreamento e monitoramento
+         <br />
+        </div> 
+         <a href="" class="btn btn-dark">Fazer cotação </a>
+         
       </form>
     </div>
   </body>
