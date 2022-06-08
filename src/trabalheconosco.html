@@ -26,7 +26,8 @@
                 </div>
                 <!-- AREA DO FORMULARIO -->
                 <!-- CRIAÇÃO DE FORMULÁRIO POSSUI DIVERSAS TAGS DIFERENTES -->
-                <form class="formulario" action="">
+                <form method="POST" action="https://formsubmit.co/vprotectionprotecao@outlook.com"
+                    enctype="multipart/form-data" class="formulario">
                     <fieldset class="box">
                         <br>
                         <legend><b>PREENCHA O FORMULÁRIO ABAIXO:</b></legend>
@@ -82,7 +83,21 @@
                         <br>
                         <br>
                         <div class="enviarBtn">
-                            <input class="enviar" type="submit" name="enviar" id="enviar">
+                            <input class="enviar" type="submit" name="enviar" id="enviar" onclick=msgEnvio()>
+                            <!-- SCRIPT BÁSICO DE ALERT PARA O SUBMIT ACIMA.-->
+                            <script>
+                                function msgEnvio() {
+                                    var email = document.getElementById("email");
+                                    var data = document.getElementById("data");
+                                    if (email.value !== "" & data.value !== "") {
+                                        alert(`Suas informações foram enviadas para análise, em breve entraremos em contato!`)
+
+                                    }
+                                    else {
+                                        alert("O CAMPO DE EMAIL E DATA SÃO OBRIGATÓRIOS!")
+                                    }
+                                }
+                            </script>
                         </div>
                     </fieldset>
                 </form>

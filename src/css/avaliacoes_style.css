@@ -152,6 +152,92 @@ footer .last {
 }
 
 /* AVALIAÇÕES CLIENTES =============================================== */
+
+.content .formulario {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 33px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-bottom: 100px;
+}
+
+.content .formulario .inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.content .formulario .inputs input {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.content .formulario .box {
+    background-image: linear-gradient(to right, white, rgb(112, 110, 110));
+    padding: 15px;
+    border-radius: 40px;
+    border: 3px solid black;
+}
+
+.content .formulario .box .avaliacao {
+    position: relative;
+    left: 60px;
+    padding-top: 10px;
+}
+
+.inputStar {
+    margin-top: 20px;
+}
+
+.fieldText {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.enviarBtn {
+    margin-top: 50px;
+}
+
+.content .formulario legend {
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 10px;
+    background-image: linear-gradient(to right, white, rgb(112, 110, 110));
+    text-align: center;
+}
+
+
+.content .formulario .enviar {
+    font-size: 18px;
+    padding-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 6px;
+    padding: 11px;
+    background-image: linear-gradient(to right, white, rgb(102, 2, 2));
+    text-align: center;
+}
+
+#data {
+    border-radius: 30px;
+    border: 2px solid black;
+    padding: 11px;
+}
+
+.content .formulario .enviarBtn {
+    display: flex;
+    justify-content: center;
+
+}
+
+#enviar {
+    width: 100%;
+    cursor: pointer;
+}
+
+
 .content .sloganav {
     display: flex;
     flex-direction: row;
@@ -165,7 +251,7 @@ footer .last {
 
 .cards {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center center;
     padding-left: 400px;
     padding-right: 400px;
@@ -181,7 +267,98 @@ footer .last {
 
 .card p {
     position: relative;
+    left: 150px;
     bottom: 135px;
-    margin-left: 180px;
-    padding-bottom: 50px;
+    padding-right: 30%;
+}
+
+.card-novosusers .image-usuario {
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    left: 20px;
+}
+
+.card-novosusers p {
+    position: relative;
+    left: 150px;
+    bottom: 135px;
+    padding-right: 30%;
+}
+
+.card-novosusers {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+
+
+/* RESPONSIVE  */
+
+@media screen and (max-width: 780px) {
+    .sloganav {
+        position: relative;
+        margin: 10%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .cards {
+        position: relative;
+        left: 10px;
+        margin: 10%;
+
+    }
+
+    .card p {
+        position: relative;
+        margin-right: 3%;
+        bottom: -10px;
+        padding-bottom: 80px;
+        right: inherit;
+        left: 0;
+        padding-right: 0%;
+    }
+
+
+    footer {
+        position: relative;
+        height: 400px;
+        width: 100%;
+    }
+
+
+    .last h3 {
+        padding-top: 50%;
+
+    }
+
+
+    .footer-links {
+        position: relative;
+        flex-direction: column;
+    }
+
+    .footer-company {
+        margin-top: 1%;
+        margin-left: 15%;
+    }
+
+    .footer-endereco {
+        position: relative;
+        padding-top: 30px;
+        padding-left: 0%;
+        margin-left: 15%;
+
+    }
+
+    .footer-redes {
+        position: relative;
+        padding-top: 30px;
+        padding-left: 0%;
+        margin-left: 15%;
+    }
+
 }
