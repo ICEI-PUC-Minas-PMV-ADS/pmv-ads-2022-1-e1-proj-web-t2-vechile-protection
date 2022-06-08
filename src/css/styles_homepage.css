@@ -179,9 +179,6 @@ footer .main {
 .footer-links {
     max-width: 1000px;
     min-width: 300px;
-    position: relative;
-    left: 150px;
-    top: 20px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -214,31 +211,6 @@ footer .last {
     display: flex;
     justify-content: center;
     padding-bottom: 10px;
-}
-
-h3 {
-    font-size: 17px;
-    font-weight: bold;
-}
-
-h5 {
-    font-size: 14px;
-    font-weight: bold
-}
-
-.sua-protecao {
-    font-size: 23px;
-    color: aqua;
-    border-color: black;
-    display: flex;
-    flex-direction: row-reverse;
-    padding-top: 100px;
-    padding-left: 20px;
-}
-
-.sua-protecao h2 {
-    font-family: "Lato";
-    color: black;
 }
 
 .sua-protecao {
