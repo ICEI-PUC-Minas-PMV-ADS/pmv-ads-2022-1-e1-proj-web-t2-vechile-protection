@@ -14,13 +14,13 @@
     <header>
         <div class="content">
             <nav>
-                <a href="#homepage" class="brand"><strong>VP</strong>rotection</a>
+                <a href="homePage.html" class="brand"><strong>VP</strong>rotection</a>
             </nav>
             <h2 class="sloganav">O que nossos clientes estão achando da VP?</h2>
             <h3 class="sloganav">Avaliações mais recentes:</h3>
         </div>
     </header>
-    <section class="cards">
+    <section class="cards" id="cards-comentarios">
         <div class="card">
             <img class="image-usuario" src="img/usuario1.jpg" alt="USUARIO 1">
             <h3>Lucas Guilherme</h3>
@@ -71,30 +71,180 @@
 
         </div>
         <br><br><br>
-        <div class="card">
-            <img class="image-usuario" src="img/usuario4.jpg" alt="USUARIO 4">
-            <h3>Jéssica Souza</h3>
-            <h5>Veículo: CG 150 Titan</h5>
-            <div class="stars">
-                <img class="star" src="img/star.png" alt="estrela">
-                <img class="star" src="img/star.png" alt="estrela">
-                <img class="star" src="img/star.png" alt="estrela">
-                <img class="star" src="img/star.png" alt="estrela">
-                <img class="star" src="img/star.png" alt="estrela">
-            </div>
-
-            <p><b>Recebi boas recomendações sobre a VP, decidi experimentar por
-                    alguns meses e manter minha moto protegida e adorei! Atendimento
-                    rápido e de qualidade! Nota 10.
-                </b></p>
-
+        <div class="card-novosusers" id="card-novosusers">
         </div>
+        <script>
+            var listaComentarios = JSON.parse(localStorage.getItem('dadosGerais') || [])
+            console.log(listaComentarios)
+
+            function desenhaComentario() {
+                const divComentarios = document.getElementById('card-novosusers')
+
+                if (divComentarios) {
+                    divComentarios.innerHTML = listaComentarios.map(comentario => {
+
+                        if ((comentario.starAv === "5")) {
+                            return `<div class="card-newusuario">
+                        <img class="image-usuario" src="img/user.jpg" alt="usuario-padrao">
+                        <h3>${comentario.nomeAv}</h3>
+                        <h5>Veículo: ${comentario.veiculoAv}</h5>
+                        <div class="stars">
+                            <img class="star" src="img/star.png" alt="estrela">
+                            <img class="star" src="img/star.png" alt="estrela">
+                            <img class="star" src="img/star.png" alt="estrela">
+                            <img class="star" src="img/star.png" alt="estrela">
+                            <img class="star" src="img/star.png" alt="estrela">
+                        </div>
+    
+                        <p><b>${comentario.textAv}</b></p>
+    
+                        </div><br><br><br>`
+
+                        }
+
+                        if ((comentario.starAv === "4")) {
+                            return `<div class="card-newusuario">
+                        <img class="image-usuario" src="img/user.jpg" alt="usuario-padrao">
+                        <h3>${comentario.nomeAv}</h3>
+                        <h5>Veículo: ${comentario.veiculoAv}</h5>
+                        <div class="stars">
+                            <img class="star" src="img/star.png" alt="estrela">
+                            <img class="star" src="img/star.png" alt="estrela">
+                            <img class="star" src="img/star.png" alt="estrela">
+                            <img class="star" src="img/star.png" alt="estrela">
+                        </div>
+    
+                        <p><b>${comentario.textAv}</b></p>
+    
+                        </div><br><br><br>`
+
+                        }
+                        if ((comentario.starAv === "3")) {
+                            return `<div class="card-newusuario">
+                        <img class="image-usuario" src="img/user.jpg" alt="usuario-padrao">
+                        <h3>${comentario.nomeAv}</h3>
+                        <h5>Veículo: ${comentario.veiculoAv}</h5>
+                        <div class="stars">
+                            <img class="star" src="img/star.png" alt="estrela">
+                            <img class="star" src="img/star.png" alt="estrela">
+                            <img class="star" src="img/star.png" alt="estrela">
+                        </div>
+    
+                        <p><b>${comentario.textAv}</b></p>
+    
+                        </div><br><br><br>`
+
+                        }
+                        if ((comentario.starAv === "2")) {
+                            return `<div class="card-newusuario">
+                        <img class="image-usuario" src="img/user.jpg" alt="usuario-padrao">
+                        <h3>${comentario.nomeAv}</h3>
+                        <h5>Veículo: ${comentario.veiculoAv}</h5>
+                        <div class="stars">
+                            <img class="star" src="img/star.png" alt="estrela">
+                            <img class="star" src="img/star.png" alt="estrela">
+                        </div>
+    
+                        <p><b>${comentario.textAv}</b></p>
+    
+                        </div><br><br><br>`
+
+                        }
+                        if ((comentario.starAv === "1")) {
+                            return `<div class="card-newusuario">
+                        <img class="image-usuario" src="img/user.jpg" alt="usuario-padrao">
+                        <h3>${comentario.nomeAv}</h3>
+                        <h5>Veículo: ${comentario.veiculoAv}</h5>
+                        <div class="stars">
+                            <img class="star" src="img/star.png" alt="estrela">
+
+                        </div>
+    
+                        <p><b>${comentario.textAv}</b></p>
+    
+                        </div><br><br><br>`
+
+                        }
+                    }).join('')
+                }
+
+            }
+
+            window.addEventListener('load', () => {
+                desenhaComentario()
+            })
+        </script>
     </section>
     <div class="content">
         <nav>
             <a href="#homepage" class="brand"><strong>VP</strong>rotection</a>
         </nav>
         <h1><a href="#cotacao" class="sloganav">Fazer uma cotação agora!</a></h1>
+
+        <form action=""></form>
+
+        <form action="" class="formulario">
+            <fieldset class="box">
+                <br>
+                <legend><b>FAÇA A SUA AVALIAÇÃO:</b></legend>
+                <div class="inputs">
+                    <!-- o "for" da label refere ao "id" dos inputs -->
+                    <label for="nome">Nome completo:</label>
+                    <input type="text" class="inputUser" name="nome" id="nome" required>
+                    <br>
+                    <!-- A TAG "REQUIRED" obriga o uso do input -->
+                    <label for="email">Email:</label>
+                    <input type="text" class="inputEmail" name="email" id="email" required>
+                    <br>
+                    <label for="email">Nome do veículo:</label>
+                    <input type="text" class="inputVeiculo" name="veiculoname" id="veiculoname" required>
+                    <br>
+                </div>
+                <br>
+                <h4>Sua avaliação para a VProtection:</h4>
+                <div class="avaliacao" id="valorAvaliacao">
+                    <!-- O campo VALUE é para quando receber o formulario saber o valor marcado pelo usuario -->
+                    <label for="estrelas" class="inputStar">1 estrelas</label>
+                    <input type="radio" class="inputStar" name="avaliacao_unica" id="star1" value="1" required>
+                    <br>
+                    <label for="estrelas" class="inputStar">2 estrelas</label>
+                    <input type="radio" class="inputStar" name="avaliacao_unica" id="star2" value="2" required>
+                    <br>
+                    <label for="estrelas" class="inputStar">3 estrelas</label>
+                    <input type="radio" class="inputStar" name="avaliacao_unica" id="star3" value="3" required>
+                    <br>
+                    <label for="estrelas" class="inputStar">4 estrelas</label>
+                    <input type="radio" class="inputStar" name="avaliacao_unica" id="star4" value="4" required>
+                    <br>
+                    <label for="estrelas" class="inputStar">5 estrelas</label>
+                    <input type="radio" class="inputStar" name="avaliacao_unica" id="star5" value="5" required>
+                </div>
+
+                <div class="fieldText">
+                    <label for="textoarea" class="titleTextArea">Digite algo para nós:</label>
+                    <textarea name="texto-avaliacao" id="texto-avaliacao" cols="30" rows="10"></textarea>
+                </div>
+                <div class="enviarBtn">
+                    <input class="enviar" type="submit" name="enviar" id="enviar" onclick=SalvarAvaliacao()>
+                    <!-- SCRIPT PARA SALVAR O SUBMIT ACIMA.-->
+                    <script>
+                        function SalvarAvaliacao() {
+                            let dadosGerais = JSON.parse(localStorage.getItem('dadosGerais') || '[]')
+                            dadosGerais.push(
+                                {
+                                    nomeAv: document.getElementById("nome").value,
+                                    emailAv: document.getElementById("email").value,
+                                    textAv: document.getElementById("texto-avaliacao").value,
+                                    starAv: document.querySelector('input[name="avaliacao_unica"]:checked').value,
+                                    veiculoAv: document.getElementById("veiculoname").value,
+                                }
+                            )
+                            localStorage.setItem('dadosGerais', JSON.stringify(dadosGerais))
+                            alert(`${document.getElementById("nome").value}, sua avaliação foi enviada! `);
+                        }
+                    </script>
+                </div>
+        </form>
     </div>
     <footer>
         <div class="main">
