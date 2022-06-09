@@ -1,5 +1,5 @@
 * {
-    font-family: 'Lato'   
+    font-family: 'Lato';
 }
 /* NAVBAR */
 
@@ -68,7 +68,7 @@ input {
     border-radius:  10px;
 }
 .container2 {
-    background-image: url(../img/slide2.jpg);
+    background-image: url(../img/slide1.png);
     background-repeat: no-repeat;
     position: relative;
     top: 100px;
@@ -108,4 +108,8 @@ input {
     width: 500px;
     margin: 0 auto;
     font-size: 20px;
+}
+
+.valor{ 
+    width: 280px;
 }

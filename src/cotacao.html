@@ -73,7 +73,7 @@
           <div class="info">
             Escolha a o tipo de veículo:
             <br>
-            <select name="tipo">
+            <select id="tipo">
               <option value="moto">Moto</option>
               <option value="carro">Carro</option>
             </select>
@@ -81,8 +81,19 @@
             Digite a marca e o modelo do seu veiculo:
             <input type="text" name="modelo-veiculo" />
             <br />
-            Digite o valor de tabela FIPE do seu veiculo:
-            <input type="text" name="valor" />
+            Escolha a opção do valor de tabela FIPE do seu veiculo:
+            <select class= "valor" id="valor">
+              <option value="1">R$000,00 - R$10.000,00</option>
+              <option value="2">R$10.001,00 - R$20.000,00</option>
+              <option value="3">R$20.001,00 - R$30.000,00</option>
+              <option value="4">R$30.001,00 - R$40.000,00</option>
+              <option value="5">R$40.001,00 - R$50.000,00</option>
+              <option value="6">R$50.001,00 - R$60.000,00</option>
+              <option value="7">R$60.001,00 - R$70.000,00</option>
+              <option value="8">R$70.001,00 - R$80.000,00</option>
+              <option value="9">R$80.001,00 - R$90.000,00</option>
+              <option value="10">R$90.001,00 ou maior</option>
+            </select>
           </div>  
         </div>
         <br />
