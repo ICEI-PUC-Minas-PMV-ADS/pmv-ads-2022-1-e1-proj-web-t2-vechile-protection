@@ -40,15 +40,16 @@
 
 
 
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box ;
 }
 body{
-    font-family: 'Lato';
-}
+    font-family: 'Ardena-Font';
 
+}
 .estrutura{
     display: flex;
     justify-content: center;
@@ -59,8 +60,8 @@ body{
 .conteudo{
     background-color: #ece8ea;
     border-radius: 15px;
-    width: 80%;
-    height:  70%;
+    width: 70%;
+    height:  60%;
     justify-content: space-between;
     align-items: center;
     position: relative;
@@ -71,6 +72,12 @@ body{
     background-color: #7a7a7a ;
     width: 40%;
     height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
+
+    left: 0%;
+
 }
  
 .title{
@@ -141,6 +148,10 @@ body{
 .primeiro-conteudo{
 display: flex;
 }
+.primeiro-conteudo .segunda-coluna{
+    z-index: 11;
+
+}
 
 .form {
     display: flex;
@@ -157,5 +168,53 @@ display: flex;
 
 .segundo-conteudo{
     position: absolute;
-    display: none;
+    display: flex;
+    
+}
+.segundo-conteudo .primeira-coluna{
+    order: 2;
+  
+    z-index: -1;
+}
+.segundo-conteudo .segunda-coluna{
+    order: 1;
+    z-index: -1;
+    
+}
+
+
+.sign-in-js .primeiro-conteudo .primeira-coluna{
+    z-index:  -1;
+}
+.sign-in-js .primeiro-conteudo .segunda-coluna{
+    z-index:  -1;
+
+}
+.sign-in-js .segundo-conteudo .primeira-coluna{
+    z-index: 11;
+}
+.sign-in-js .segundo-conteudo .segunda-coluna{
+    z-index: 11;
+}
+
+.sign-in-js .conteudo::before{
+    left: 60%;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.sign-up-js .segundo-conteudo .primeira-coluna{
+    z-index: -1;
+}
+.sign-up-js .segundo-conteudo .segunda-coluna{
+    z-index: -1;
+}
+
+.sign-up-js .primeiro-conteudo .primeira-coluna{
+    z-index: 11;
+}
+.sign-up-js .primeiro-conteudo .segunda-coluna{
+z-index: 11;
 }
