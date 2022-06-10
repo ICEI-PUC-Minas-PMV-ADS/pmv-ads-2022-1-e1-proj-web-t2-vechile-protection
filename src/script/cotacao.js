@@ -31,7 +31,7 @@
 main();
 */
 
-const checkBoxes = document.querySelectorAll(".checkbox")
+/*const checkBoxes = document.querySelectorAll(".checkbox")
 const btn = document.querySelector("#send")
 
 
@@ -42,8 +42,8 @@ function atualizouSelect(){
     return optionValue.value
 }
 
-btn.addEventListener("click", function(e) {
-    e.preventDefault()
+btn.addEventListener("click", function(event) {
+    event.preventDefault()
 
     const valueFipe = atualizouSelect()
     const tabela = valueFipe === 0 ? 80: 80 + valueFipe*10
@@ -55,10 +55,44 @@ btn.addEventListener("click", function(e) {
         if(el.checked) {
             selected++
         }
-    })
+    })          
 
-    console.log(tabela+ 5*selected)
+    const valueFinal = tabela + 5*selected;
+
+    document.getElementById('valorfinal').innerHTML = `O valor da mensalidade é de R$ ${valueFinal},00`;
+
+    
     return selected
 })
+*/
 
 
+const select = document.querySelector("#valor")
+const checkBoxes = document.querySelectorAll(".checkbox")
+const btn = document.querySelector("#send")
+
+function actualizedSelect(){
+    const optionValue = select.options[select.selectedIndex]
+    return optionValue.value
+}
+
+function checkBox(){
+    let selected = 0
+    checkBoxes.forEach(function(el){
+        if(el.checked) {
+            selected++
+        }
+    })
+    return selected 
+}
+
+btn.addEventListener("click", function(e) {
+    e.preventDefault()
+
+    const valueFipe = actualizedSelect()
+    const additional = checkBox()
+    const calculate = (valueFipe === 1 ? 70 : 70 + valueFipe*10) + additional * 5
+
+    document.getElementById('valorfinal').innerHTML = `O valor da mensalidade é de R$ ${calculate},00`;
+    return calculate
+})
