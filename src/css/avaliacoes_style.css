@@ -381,3 +381,11 @@ footer .last {
     align-self: center;
     text-decoration: none;
     margin: 0 auto;}
+
+    .fazerCotacao{
+        
+        display: flex
+        ;
+        
+        
+    }
