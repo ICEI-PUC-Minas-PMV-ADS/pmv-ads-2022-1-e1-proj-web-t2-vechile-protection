@@ -47,3 +47,9 @@ Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
 | Critérios de Êxito |	Após o preenchimento dos campos obrigatórios, ao clicar no botão de envio, não deverá nenhum tipo de mensagem alertando que os campos não foram preenchidos adequadamente ou informando que os dados estão incorretos.
 
 
+|     Caso de teste      | CT-06 – Emissão de boletos após login.                                                                                                                                                                                                                                                                       |
+|         :---:          | :---                                                                                                                                                                                                                                                                                                                |
+| Requisitos Associados	 | RF-004	A aplicação deve ter a opção para requisitar impressão do boleto de mensalidade após login        |                                                                                       
+|   Objetivo do Teste    | 	O usuário após logar, deve conseguir emitir o boleto desejado.                                                                                                                                                                                                                                                   |
+|        Passos	         | 1) Acessar o Navegador <br> 2) Informar o endereço do Site <br> 3) Visualizar a página de login - login.html <br> 4) fazer o login ou criar uma conta. 5)Após login, escolher o mês desejado e clicar em "Imprimir" -|
+| Critérios de Êxito |	Após o preenchimento dos campos obrigatórios, ao clicar no botão de imprimir, deverá apresentar o boleto para impressão ou pagamento.
