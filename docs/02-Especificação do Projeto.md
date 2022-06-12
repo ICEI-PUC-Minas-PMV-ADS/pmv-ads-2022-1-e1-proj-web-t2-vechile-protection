@@ -47,7 +47,7 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
 |RF-001| No site deve ter um formulário para preenchimento de dados sobre o carro e o cliente para cálculo e contratação da proteção automotiva | ALTA | 
-|RF-002| O site deve deixar claro as formas do cliente contactar a empresa   | ALTA |
+|RF-002| O site deve deixar claro as formas do cliente contactar a empresa para envios de curriculos (Trabalhe conosco)  | ALTA |
 |RF-003| O site deve informar e mostrar notícias sobre automóveis e direção defensiva   | BAIXA |
 |RF-004| Opção de manual do associado deve ser mostrado para o cliente no site, onde informa para o cliente todos os seus direitos, deveres e regras de utilização   | MÉDIA |
 |RF-005| O site deve informar em algum local as empresas parceiras, como rastreamento, carros alugados e afins...   | BAIXA |
