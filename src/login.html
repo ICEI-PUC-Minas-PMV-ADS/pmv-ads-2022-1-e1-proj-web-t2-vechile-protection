@@ -1,130 +1,158 @@
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device.width, initial.scale=1.0">
-        <title>Login</title>
-        <link rel="stylesheet" href="css/style_login.css">
-        <link  rel =" folha de estilo " href =" https://use.fontawesome.com/releases/v5.8.2/css/all.css ">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100;1,400&display=swap"
-        rel="stylesheet">
-        <!-- CSS only -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device.width, initial.scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style_login.css">
+    <link rel="shortcut icon" href="img/icon_protection.png">
+    <link rel=" folha de estilo " href=" https://use.fontawesome.com/releases/v5.8.2/css/all.css ">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        
-        <!--Icons-->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-        <!--CSS-->
-        <link rel="stylesheet" href="css/styles_homepage.css">
-        <!--JS Bootstrap-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+
+    <!--Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/styles_homepage.css">
+    <!--JS Bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
         crossorigin="anonymous"></script>
-    
-        
-    </head>
 
-    <body>
-         <!--NAVBAR-->
-         
-        <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
-            <div class="container py-3">
-                <a href="homePage.html" class="navbar-brand primary-color">
-                    <img src="img/icon_protection.png" alt="VP">
-                    <span>V Protection</span>
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items"
-                    aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
-                    <em class="bi bi-list"></em>
-                </button>
-                <div class="collapse navbar-collapse" id="navbar-items">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                        <li class="nav-item">
-                            <a href="homePage.html" class="nav-link primary-color" aria-current="page">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="cotacao.html" class="nav-link primary-color">Proteção Veicular</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="login.html" class="nav-link active primary-color">Login</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="sobrenos.html" class="nav-link primary-color">Sobre a Empresa</a>
-                        </li>
-                    </ul>
-                </div>
+
+</head>
+
+<body>
+    <!--NAVBAR-->
+
+    <nav class="navbar navbar-expand-lg fixed-top bg-primary-color" id="navbar">
+        <div class="container py-3">
+            <a href="homePage.html" class="navbar-brand primary-color">
+                <img src="img/icon_protection.png" alt="VP">
+                <span>V Protection</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-items"
+                aria-controls="navbar-items" aria-expanded="false" aria-label="Toggle navigation">
+                <em class="bi bi-list"></em>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-items">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="homePage.html" class="nav-link primary-color" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="cotacao.html" class="nav-link primary-color">Proteção Veicular</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="login.html" class="nav-link active primary-color">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="sobrenos.html" class="nav-link primary-color">Sobre a Empresa</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
 
-        <!--ESTRUTURA-->
-        <div class="estrutura">
-            <div class="conteudo primeiro-conteudo">
-                <div class="primeira-coluna">
-                    <h2 class="title title-bemvindo">Bem Vindo</h2>
-                    <p class="descricao descricao-login">Clique aqui acessar sua conta </p>
-                    <button id="signin" class= "btn btn-dark">Acessar</button>
-                </div><!-- primeira coluna -->
-                <div class="segunda-coluna">
-                    <h2 class="title title-conta">Crie sua conta</h2>
-                    <p class="descricao descricao-email">Cadastre seu email</p>
-                     <form class="form">
-                         <input type="texto" placeholder="Nome">
-                         <input type="email"placeholder="Email">
-                         <input type="password"placeholder="Senha">
-                         <button  class="btn btn-dark">Criar  Conta</button>
-                     </form>
-                </div><!-- Segunda coluna -->
-            </div><!-- primeiro conteudo -->
-            <div class="conteudo segundo-conteudo">
-                 <div class="primeira-coluna">
-                        <h2 class="title title-bemvindo">Bem Vindo</h2>
-                        <p class="descricao descricao-login">Clique aqui para criar sua conta</p>
-                     <button id="signup" class="btn btn-dark"> Criar conta</button>
-                </div><!-- primeira colina -->
-                <div class="segunda-coluna">
+        </div>
+    </nav>
+
+    <!--ESTRUTURA-->
+    <div class="estrutura">
+        <div class="conteudo primeiro-conteudo">
+            <div class="primeira-coluna">
+                <h2 class="title title-bemvindo">Bem Vindo</h2>
+                <p class="descricao descricao-login">Clique aki para acessar sua conta </p>
+                <button id="signin" class="btn btn-primary">Acessar</button>
+            </div><!-- primeira coluna -->
+
+
+
+
+            <div class="segunda-coluna">
+                <h2 class="title title-conta">Crie sua conta</h2>
+                <p class="descricao descricao-email">Cadastre seu email</p>
+                <form class="form">
+                    <input type="texto" placeholder="Nome" id="user-cadastro">
+                    <input type="email" placeholder="Email" id="email-cadastro">
+                    <input type="password" placeholder="Senha" id="password-cadastro">
+                    <button class="btn btn-second" onclick=CadastrarUser()>Criar Conta</button>
+                </form>
+                <script>
+                    function CadastrarUser() {
+                        let dadosLogin = JSON.parse(localStorage.getItem('dadosLogin') || '[]')
+
+                        dadosLogin.push({
+                            usuario: document.getElementById("user-cadastro").value,
+                            senha: document.getElementById("password-cadastro").value,
+                            email: document.getElementById("email-cadastro").value,
+                        })
+
+
+                        localStorage.setItem('dadosLogin', JSON.stringify(dadosLogin))
+                        alert(`Prezado(a) ${document.getElementById("user-cadastro").value}. Você se cadastrou na VProtection!`)
+                    }
+                </script>
+            </div><!-- Segunda coluna -->
+        </div><!-- primeiro conteudo -->
+        <div class="conteudo segundo-conteudo">
+            <div class="primeira-coluna">
+                <h2 class="title title-bemvindo">Bem Vindo</h2>
+                <p class="descricao descricao-login">Clique aki para criar sua conta</p>
+                <button id="signup" class="btn btn-primary"> Entrar</button>
+            </div><!-- primeira colina -->
+            <div class="segunda-coluna">
                 <h2 class="title title-conta">login</h2>
                 <p class="descript"></p>
                 <form class="form">
-                  <input type="email"placeholder="Email">
-                    <input type="password"placeholder="Senha">
-                    <button id="signin" class="btn btn-dark"> Acessar</button>
-                
+                    <input type="email" placeholder="Email" id="email-loggin">
+                    <input type="password" placeholder="Senha" id="senha-loggin">
+                    <button id="signin" class="btn btn-second" onclick=fazerLogin()>Acessar</button>
+
+                    <script>
+                        function fazerLogin() {
+                            let email_login = document.querySelector('#email-loggin')
+                            let password_login = document.querySelector('#senha-loggin')
+                            let listaUsuarios = []
+
+                            listaUsuarios = JSON.parse(localStorage.getItem('dadosLogin'))
+
+                            let validarUsuario = {
+                                email: '',
+                                senha: ''
+                            }
+
+                            // O FOREACH irá varrer item por item na lista do localstorage
+                            listaUsuarios.forEach((item) => {
+                                if (email_login.value == item.email && password_login.value == item.senha) {
+                                    validarUsuario = {
+                                        email: item.email,
+                                        senha: item.senha
+                                    }
+                                }
+
+                            })
+
+                            if (email_login.value == validarUsuario.email && password_login.value == validarUsuario.senha) {
+                                window.location.href = "boletos.html"
+                                alert('Logado com sucesso!')
+                            }
+                            else {
+                                alert('Usuario ou senha errado!')
+                            }
+
+
+                        }
+
+                    </script>
+
                 </form>
-                </div><!-- Segunda coluna -->
-            </div><!-- segundo conteudo -->
-        </div>
-        <script src="script/login.js">  </script>
-    </body>
-    <footer>
-        <div class="main">
-            <div class="content footer-links">
-                <div class="footer-company">
-                    <h3>Contatos:</h3>
-                    <h5>Assistencia 24hrs: 0800 923 3294</h5>
-                    <h5>WhatsApp Suporte: +55 31 9999-8838</h5>
-                </div>
-                <br>
-                <div class="footer-endereco">
-                    <h3>Endereço:</h3>
-                    <h5>Rua Solitude Pereira Aragão</h5>
-                    <h5>Número: 870 7ºandar</h5>
-                </div>
-                <br>
-                <div class="footer-redes">
-                    <h3>Redes sociais:</h3>
-                    <div class="redes-icons">
-                        <a href="http://www.instagram.com" target="_blank"><img src="img/instagram.png"
-                                alt="Instagram"></a>
-                        <a href="http://web.whatsapp.com" target="_blank"><img href="" src="img/whatsapp.png"
-                                alt="Whatsapp"></a>
-                        <a href="http://linkedin.com" target="_blank"><img src="img/linkedin.png" alt="LinkedIn"></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="last">
-            <h3>Copyright VProtection 2022 º PUC MINAS </h3>
-        </div>
-    </footer>
+            </div><!-- Segunda coluna -->
+        </div><!-- segundo conteudo -->
+    </div>
+    <script src="script/login.js">  </script>
+</body>
+
+
 </html>
