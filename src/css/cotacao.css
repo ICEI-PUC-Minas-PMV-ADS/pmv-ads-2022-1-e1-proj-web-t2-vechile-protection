@@ -122,9 +122,10 @@ input {
 
 /* footer */
 
-
 footer {
     background-color: #7a7a7a;
+    position: relative;
+    top: 90px;
     width: 100%;
     height: 50%;
     margin-top: 100px;
