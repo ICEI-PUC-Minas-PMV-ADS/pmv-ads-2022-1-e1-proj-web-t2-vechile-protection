@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&display=swap');
+
 * {
     font-family: 'Lato';
 }
@@ -42,7 +44,7 @@ body{
     text-align: center;
 }
 form {
-    
+    border-radius: 10px;
     border: 1px solid ;
     box-shadow: 3px 0px 10px 0px rgba(66, 65, 65, 0.8);
     max-width:1200px;
@@ -70,10 +72,11 @@ input {
     background-image: url(../img/slide1.png);
     background-repeat: no-repeat;
     position: relative;
-    top: 100px;
+    top: 120px;
     max-width:1200px;
     margin: 0 auto;
     background-size: 1200px auto;
+    border-radius: 10px;
     
 }
 h4 {
@@ -83,11 +86,6 @@ h4 {
 
 input {
     margin: 10px 30px 
-}
-.btn {
-    margin: 0 auto;
-      
-    
 }
 
 .opcional{
@@ -127,15 +125,11 @@ footer {
     position: relative;
     top: 90px;
     width: 100%;
-    height: 50%;
-    margin-top: 100px;
-    
-    
+    margin-top: 150px;    
 }
 
 footer .main {
     width: 100%;
-    height: 200px;
     padding: 30px;
     display: flex;
     flex-direction: row;
@@ -147,7 +141,6 @@ footer .main {
 
 .footer-links {
     max-width: 1000px;
-    min-width: 300px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -181,3 +174,4 @@ footer .last {
     justify-content: center;
     padding-bottom: 10px;
 }
+
