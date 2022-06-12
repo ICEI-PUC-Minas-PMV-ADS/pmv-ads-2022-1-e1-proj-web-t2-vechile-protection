@@ -25,7 +25,7 @@ btn.addEventListener("click", function(e) {
         const additional = checkBox()
         const calculate = (valueFipe === 1 ? 70 : 70 + valueFipe*10) + additional * 5
     
-        document.getElementById('valorfinal').innerHTML = `O valor da mensalidade é de R$ ${calculate},00`
+        document.getElementById('valorfinal').innerHTML = `O valor da mensalidade é de R$ ${calculate},00. \n Para finalizar a contratação entre em contato com +55 31 9999-8838`
         return calculate
     }else{
         document.getElementById('valorfinal').innerHTML = `Você se esqueceu de preencher um campo`
