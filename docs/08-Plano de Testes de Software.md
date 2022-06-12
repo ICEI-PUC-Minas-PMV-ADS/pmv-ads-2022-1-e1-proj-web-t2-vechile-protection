@@ -1,19 +1,34 @@
 # Plano de Testes de Software
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>
+Os requisitos para realização dos testes de software são:
+*	Site publicado na Internet
+*	Navegador da Internet - Chrome, Firefox ou Edge
 
-Apresente os cenários de testes utilizados na realização dos testes da sua aplicação. Escolha cenários de testes que demonstrem os requisitos sendo satisfeitos.
 
-Enumere quais cenários de testes foram selecionados para teste. Neste tópico o grupo deve detalhar quais funcionalidades avaliadas, o grupo de usuários que foi escolhido para participar do teste e as ferramentas utilizadas.
+Os testes funcionais a serem realizados no aplicativo são descritos a seguir.
+
+|     Caso de teste      | CT-01 – Acessar serviços                                                                                                                                                                                                                                                                                            |
+|:----------------------:|:--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Requisitos Associados	 | RF-06 - O site terá uma página em que será possível acessar os serviços disponíveis, quais sejam: cotação, login, emissão de boletos, avaliações e formulário de preenchimento para currículo.                                                                                                                                                        |
+|   Objetivo do Teste    | 	Verificar se a página está direcionando o usuário para os serviços corretos.                                                                                                                                                                                                                           |
+|        Passos	         | 1) Acessar o Navegador <br> 2) Informar a URL  https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-vechile-protection <br> 3) Visualizar a página principal <br> 4) Clicar em cada um dos links dos serviços disponíveis                                                                                                                                                       |
+|   Critérios de Êxito   | 	Ao clicar no link o usuário deve ser direcionado para a página correta. 
  
-## Ferramentas de Testes (Opcional)
-
-Comente sobre as ferramentas de testes utilizadas.
  
-> **Links Úteis**:
-> - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Práticas e Técnicas de Testes Ágeis](http://assiste.serpro.gov.br/serproagil/Apresenta/slides.pdf)
-> -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
-> - [Criação e Geração de Planos de Teste de Software](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
-> - [UX Tools](https://uxdesign.cc/ux-user-research-and-user-testing-tools-2d339d379dc7)
+|     Caso de teste      | CT-02 – Cotação de veículos                                                                                                                                                                                                                                                                         |
+|         :---:          | :---                                                                                                                                                                                                                                                                                                                |
+| Requisitos Associados	 | RF-001	No site deve ter um formulário para preenchimento de dados sobre o carro e o cliente para cálculo e contratação da proteção automotiva                                                                                                                            |
+|   Objetivo do Teste    | 	Verificar se  o fomulário de cotação funciona de modo adequado.                                                                                                                                                                                                                                                    |
+|        Passos	         | 1) Acessar o Navegador <br> 2) Informar a URL https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-vechile-protection e clicar no menu "Proteção Veicular" <br> 3) Visualizar a página de cotação - cotacao.html <br> 4) Preencher os campos presentes no formulário de cotação, e, após a inserção dos dados, clicar no botão de envio ao final do formulário com a seguinte descrição: "Fazer cotação" - Os campos presentes no formulário de contato são de preenchimento obrigatório. |
+| Critérios de Êxito |	Após o preenchimento dos campos obrigatórios, ao clicar no botão de envio, não deverá nenhum tipo de mensagem alertando que os campos não foram preenchidos adequadamente, e será informado o valor de mensalidade.
+
+
+|     Caso de teste      | CT-02 – Utilização do formulário de contato                                                                                                                                                                                                                                                                         |
+|         :---:          | :---                                                                                                                                                                                                                                                                                                                |
+| Requisitos Associados	 | RF-07 - O site terá uma página em que será possível acessar um formulário de contato de modo que o usuário poderá enviar dúvidas, sugestões ou críticas aos desenvolvedores do projeto.                                                                                                                             |
+|   Objetivo do Teste    | 	Verificar se  o fomulário de contato funciona de modo adequado.                                                                                                                                                                                                                                                    |
+|        Passos	         | 1) Acessar o Navegador <br> 2) Informar o endereço do Site <br> 3) Visualizar a página de contato - contact.html <br> 4) Preencher os campos presentes no formulário de contato, e, após a inserção dos dados, clicar no botão de envio ao final do formulário com a seguinte descrição: "ENVIAR A MINHA MENSAGEM" - Os campos presentes no formulário de contato são de preenchimento obrigatório, salvo o número de telefone. |
+| Critérios de Êxito |	Após o preenchimento dos campos obrigatórios, ao clicar no botão de envio, não deverá nenhum tipo de mensagem alertando que os campos não foram preenchidos adequadamente.
+
+
+
