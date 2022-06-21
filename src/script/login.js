@@ -1,16 +1,11 @@
+const btnSignIn = document.querySelector("#signin");
+const btnSignUp = document.querySelector("#signup");
 
-var btnSingnin = document.querySelector("#signin");
-var btnSingnup = document.querySelector("#signup");
+const body = document.querySelector("body");
 
-var body = document.querySelector("body");
-
-
-btnSingnin.addEventListener("click" , function(){
+btnSignIn.addEventListener("click" , function(){
     body.className = "sign-in-js"
 })
-btnSingnup.addEventListener("click" , function(){
+btnSignUp.addEventListener("click" , function(){
     body.className = "sign-up-js"
 })
-
-
-
