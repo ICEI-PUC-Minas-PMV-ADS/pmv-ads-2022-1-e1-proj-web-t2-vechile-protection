@@ -19,9 +19,6 @@ Estamos desenvolvendo uma aplicação web (site) que fornece serviços de cotaç
 
 * Joyce Christina De Paiva Carvalho
 
-## Instruções de utilização
-
-Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
 
 # Documentação
 
