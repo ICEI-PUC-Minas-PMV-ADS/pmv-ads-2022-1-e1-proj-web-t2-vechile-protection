@@ -50,9 +50,8 @@ A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade
 |RF-002| O site deve deixar claro as formas do cliente contactar a empresa para envios de curriculos (Trabalhe conosco)  | ALTA |
 |RF-003| O site deve ter uma tela de cadastro e login para acesso a demais funcionalidades   | MÉDIA |
 |RF-004| A aplicação deve ter a opção para requisitar impressão do boleto de mensalidade após login  | MÉDIA |
-|RF-005| O site tem de mostrar as informações de serviços prestados disponíveis   | MÉDIA |
-|RF-006| A aplicação deve mostrar no local correto, as melhores comentários e avaliações da empresa feito por alguns usuários   | BAIXA |
-|RF-007| O site deve informar no momento da cotação todos os opcionais que o cliente poderá aderir.   | MÉDIA |
+|RF-005| A aplicação deve mostrar no local correto, as melhores comentários e avaliações da empresa feito por alguns usuários   | BAIXA |
+|RF-006| O site deve informar no momento da cotação todos os opcionais que o cliente poderá aderir.   | MÉDIA |
 
 ### Requisitos não Funcionais
 
