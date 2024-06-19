@@ -1,0 +1,30 @@
+message: Please cite this software using these metadata.
+title: DIGITAL VEHICLE PROTECTION
+authors:
+  - family-names: Marcos Olivera Vieira
+    given-names: Victor 
+  - family-names:  Furtado De Souza
+    given-names: Leandro
+  - family-names: Do Carmo Ramos
+    given-names: Anderson 
+  - family-names:  Ottoni Guimarães Soares
+    given-names: Vinicius
+  - family-names: 
+    given-names: 
+  - family-names: 
+    given-names: 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: 
+    given-names: 
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Christina de Paiva Carvalho
+    given-names: Joyce 
+keywords:
+  - Vehicle
+  - Protection
+  - App
+repository-code: https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2022-1-e1-proj-web-t2-vechile-protection
+version: 1.0.0
+date-released: 2022-07-12
